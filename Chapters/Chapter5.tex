@@ -66,10 +66,10 @@ A hypothetical decision tree can be derived from the training data as depicted i
 \section{Algorithm}
 The algorithm used is ID3 Algorithm. So, Information gain as described in Section \ref{infogain} is used as splitting criterion. \\
 We used the structure of the algorithm described in Algorithm \ref{generatedecisiontree} in our implementation. We used Java programming language for implementation. \\
-The pseudocode for the final implementation of the algorithm is shown 
+The pseudocode for the final implementation of the algorithm is shown in Algorithm \ref{generatedecisiontreeforbiisdata}.
 
 
-
+{\SetAlgoNoLine
 \begin{algorithm}[H]
 
 \label{generatedecisiontreeforbiisdata}
@@ -121,7 +121,7 @@ The pseudocode for the final implementation of the algorithm is shown
 \State return $N$ \;
 \EndProcedure
 \end{algorithmic}
-\end{algorithm}
+\end{algorithm}}
 
 \section{Result of Classification}
  
@@ -548,4 +548,155 @@ According to our classifier the percentage of each class label of WRE department
   \label{fig:Performance of WRE Department}
 \end{figure}
 
+\subsubsection{Overall Department wise Performance}
+\begin{figure}
+   \centering
+  \includegraphics[width=\linewidth]{Figures/Slide19.jpg}
+  \decoRule
+  \caption[Overall Department wise Performance]{Overall Department wise Performance}
+  \label{fig:Overall Department wise Performance}
+\end{figure}
 
+Figure \ref{fig:Overall Department wise Performance} shows the overall department wise performance according to our classifier. The amounts are calculated in percentage for better comparison.
+
+\subsection{Impact of Gender on Performance}
+Male and female students have different proportion of class label according to our classifier. Female students have higher percentage of their number in  top(excellent) class. In the lowest class(very poor) the percentages are almost equal.Figure \ref{fig:Impact of Gender on Performance} illustrate this phenomena.Table \ref{tab:impactofgender} is the numerical data table for this section.
+
+
+
+\begin{figure}
+   \centering
+  \includegraphics[width=\linewidth]{Figures/Slide13.jpg}
+  \decoRule
+  \caption[Impact of Gender on Performance]{Impact of Gender on Performance}
+  \label{fig:Impact of Gender on Performance}
+\end{figure}
+
+
+\begin{table}
+\caption{Impact of Gender on Performance}
+\label{tab:impactofgender}
+\centering
+\begin{tabular}{|c| c|c| }
+\toprule
+\tabhead{Class Label} & \tabhead{Feale} & \tabhead{Male}\\
+\midrule
+Excellent	& 14.56\% &	10.55\%\\
+Good	& 34.13\% & 	37.59\%\\
+Moderate	& 29.13\% &	31.15\%\\
+Poor &	13.26 \% &	11.48\%\\
+Very Poor &	8.91\% &	9.11\%\\
+ 
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Impact of Hall Status on Performance}
+Hall status(Resident or Attached) of a student have a profound impact on performance. Attached students have higher percentage of their number in higher classes(excellent,good). In the lower classes the percentages are almost same. Residents are dominant in 'moderate' class. Figure \ref{fig:Impact of Hall Status on Performance} illustrate this phenomena. Table \ref{tab:impactofhall} is the numerical data table for this section.
+
+
+\begin{figure}
+   \centering
+  \includegraphics[width=\linewidth]{Figures/Slide14.jpg}
+  \decoRule
+  \caption[Impact of Hall Status on Performance]{Impact of Hall Status on Performance}
+  \label{fig:Impact of Hall Status on Performance}
+\end{figure}
+ 
+
+\begin{table}
+\caption{Impact of Hall Status on Performance}
+\label{tab:impactofhall}
+\centering
+\begin{tabular}{|c| c|c| }
+\toprule
+\tabhead{Class Label} & \tabhead{Resident} & \tabhead{Attached}\\
+\midrule
+Excellent &	7.88\% &	17.13\%\\
+Good	& 35.12\% &	39.97\%\\
+Moderate &	35.38\% &	22.95\%\\
+Poor	& 12.65\%	& 10.41\%\\
+Very Poor &	8.94\% &	9.29\%\\
+
+\bottomrule
+\end{tabular}
+\end{table} 
+
+ 
+ 
+\subsection{Impact of Class Attendance Marks}
+Class attendance has a profound impact on a student's performance. Students with high class test marks are tend to be in the higher label. For example students with greater than 90\% attendance is dominant in top class(excellent). On the other hand student with less than 60\% attendance has a very high probability of being in the 'very poor' class. Figure \ref{fig:Impact of Attendance on Performance} describes this phenomena. Table \ref{tab:impactofatt} is the numerical data table for this section.
+
+\begin{figure}
+   \centering
+  \includegraphics[width=\linewidth]{Figures/Slide15.jpg}
+  \decoRule
+  \caption[Impact of Attendance on Performance]{Impact of Attendance on Performance}
+  \label{fig:Impact of Attendance on Performance}
+\end{figure}
+
+\begin{table}
+\caption{Impact of Hall Status on Performance}
+\label{tab:impactofatt}
+\centering
+\begin{tabular}{|c| c|c|c|c| }
+\toprule
+\tabhead{Class Label} & \tabhead{\textgreater 90} & \tabhead{\textgreater 70 and \textless 90 } & \tabhead{ \textgreater 60 and \textless 70 } & \tabhead{\textless 60 }\\
+\midrule
+Excellent &	15.73\%	& 1.01\%	& 1.02\% &	0.77\% \\
+Good	& 44.41\%	& 24.43\% &	11.22\% &	6.20\% \\
+Moderate &	28.74\%	 & 41.75\%	& 27.55\%	& 17.82\% \\
+Poor	& 7.54\%	& 20.97\%	& 30.61\%	& 18.60\% \\
+Very Poor	& 3.56\%	& 11.81\%	& 29.59\%	& 55.03\% \\
+\bottomrule
+\end{tabular}
+\end{table} 
+ 
+\subsection{Impact of Class Test Marks on Performance}
+Class test marks plays a very important role on overall performance of a student. Figure \ref{fig:Impact of Class test marks on Performance} shows the result. Table \ref{tab:impactofct} is the data table.
+
+\begin{figure}
+   \centering
+  \includegraphics[width=\linewidth]{Figures/Slide16.jpg}
+  \decoRule
+  \caption[Impact of Class test marks on Performance]{Impact of Class test marks on Performance}
+  \label{fig:Impact of Class test marks on Performance}
+\end{figure}
+
+\begin{table}
+\caption{Impact of Class Test Marks on Performance}
+\label{tab:impactofct}
+\centering
+\begin{tabular}{|c| c|c|c|c| }
+\toprule
+\tabhead{Class Label} & \tabhead{\textgreater 90} & \tabhead{\textgreater 70 and \textless 90 } & \tabhead{ \textgreater 50 and \textless 70 } & \tabhead{\textless 50 }\\
+\midrule
+Excellent &	73\%	& 14.1\%	& 1\% &	1\% \\
+Good	& 26\%	& 47\% &	20\% &	4\% \\
+Moderate &	2\%	 & 29\%	& 43\%	& 15\% \\
+Poor	& 0\%	& 8\%	& 22\%	& 26\% \\
+Very Poor	& 0\%	& 5\%	& 16\%	& 54\% \\
+\bottomrule
+\end{tabular}
+\end{table} 
+ 
+ 
+\subsection{Impact of CGPA on Overall Performance}
+It is quite obvious that cgpa is the most important part of a student's overall academic performance.
+Our classifier also agrees with this fact. About 99\% of the students getting cgpa higher than 3.8 falls in the 'Excellent' class. Those with lower cgpa falls in lower classes.
+ 
+ 
+\subsection{Impact of Credit Completion}
+Completing all the required credit within the regular period of time plays a vital role in overall academic performance. Figure \ref{fig:Impact of Credit completion on Performance} shows the result.
+
+\begin{figure}
+   \centering
+  \includegraphics[width=\linewidth]{Figures/Slide18.jpg}
+  \decoRule
+  \caption[Impact of Credit completion on Performance]{Impact of Credit completion on Performance}
+  \label{fig:Impact of Credit completion on Performance}
+\end{figure}
+
+ 
+
+ 

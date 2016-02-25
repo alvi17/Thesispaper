@@ -1,0 +1,27 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: main.aux
+The style file: biblatex.bst
+A level-1 auxiliary file: Chapters/Chapter1.aux
+A level-1 auxiliary file: Chapters/Chapter2.aux
+White space in argument---line 34 of file main.aux
+ : \citation{knowledge
+ :                     discovery}
+I'm skipping whatever remains of this command
+White space in argument---line 37 of file main.aux
+ : \citation{data
+ :                cleaning}
+I'm skipping whatever remains of this command
+White space in argument---line 38 of file main.aux
+ : \citation{Data
+ :                Integration}
+I'm skipping whatever remains of this command
+A level-1 auxiliary file: Chapters/Chapter3.aux
+A level-1 auxiliary file: Chapters/Chapter4.aux
+A level-1 auxiliary file: Chapters/Chapter5.aux
+A level-1 auxiliary file: Chapters/Chapter6.aux
+A level-1 auxiliary file: Appendices/AppendixA.aux
+Database file #1: main-blx.bib
+Database file #2: example.bib
+Warning--I didn't find a database entry for "IBM"
+Warning--I didn't find a database entry for "kddsteps"
+Biblatex version: 3.0
+(There were 3 error messages)

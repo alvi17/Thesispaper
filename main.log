@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.16)  22 FEB 2016 02:32
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.16)  25 FEB 2016 12:12
 entering extended mode
 **main.tex
 (C:\Users\Alvi17\Documents\ThesisPaper\main.tex
@@ -148,8 +148,8 @@ Package: xparse 2016/01/19 v6377 L3 Experimental document command parser
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\book.cls"
 Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\bk11.clo"
-File: bk11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\bk12.clo"
+File: bk12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count109
 \c@chapter=\count110
@@ -1431,23 +1431,23 @@ Package caption Info: End \AtBeginDocument code.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * bindingoffset: 56.9055pt
 * modes: includehead includefoot twoside 
-* h-part:(L,W,R)=(71.13188pt, 361.34995pt, 108.12054pt)
+* h-part:(L,W,R)=(56.9055pt, 412.56499pt, 71.13188pt)
 * v-part:(T,H,B)=(42.67912pt, 759.6886pt, 42.67912pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=361.34995pt
-* \textheight=693.49821pt
-* \oddsidemargin=55.7674pt
-* \evensidemargin=35.85056pt
+* \textwidth=412.56499pt
+* \textheight=689.15318pt
+* \oddsidemargin=41.54102pt
+* \evensidemargin=-1.1381pt
 * \topmargin=-29.59087pt
-* \headheight=18.85364pt
+* \headheight=20.66162pt
 * \headsep=19.8738pt
-* \topskip=11.0pt
-* \footskip=27.46295pt
-* \marginparwidth=116.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=98.0pt
 * \marginparsep=7.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -1492,14 +1492,15 @@ Package biblatex Warning: Data encoding is 'utf8'.
 (biblatex)                Use backend=biber.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'main.bbl' not found.
-No file main.bbl.
+Package biblatex Info: ... file 'main.bbl' found.
+(C:\Users\Alvi17\Documents\ThesisPaper\main.bbl)
 Package biblatex Info: Reference section=0 on input line 70.
 Package biblatex Info: Reference segment=0 on input line 70.
 \c__siunitx_mathsf_int=\count385
 \c__siunitx_mathtt_int=\count386
+
 1: section
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <20.74> not available
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 87.
 [1
 
@@ -1516,7 +1517,7 @@ LaTeX Font Info:    Try loading font information for OMS+ppl on input line 122.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omsppl.fd"
 File: omsppl.fd 
 )
-LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <10.95> not available
+LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 122.
 
 Underfull \hbox (badness 10000) in paragraph at lines 127--128
@@ -1530,7 +1531,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 127--128
 --------------------
  Abstract
 --------------------
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 142.
 1: section
 [5] [6
@@ -1542,10 +1543,7 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
 1: section
 [7] [8
 
-]
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 165.
- (C:\Users\Alvi17\Documents\ThesisPaper\main.toc
+] (C:\Users\Alvi17\Documents\ThesisPaper\main.toc
 1: section
 [9])
 \tf@toc=\write5
@@ -1585,45 +1583,117 @@ Chapter 1.
 
 ]
 Chapter 2.
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 13.
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 23.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17.28> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 15.
 
-Overfull \hbox (17.81062pt too wide) in paragraph at lines 35--36
-\T1/ppl/m/n/10.95 structed to pre-dict class (cat-e-gor-i-cal) la-bels.This mod
-el is a pre-dic-tor.Regression
+LaTeX Warning: Citation 'knowledge discovery' on page 3 undefined on input line
+ 16.
+
+
+LaTeX Warning: Citation 'IBM' on page 3 undefined on input line 16.
+
+
+LaTeX Warning: Citation 'kddsteps' on page 3 undefined on input line 17.
+
+<Figures/kdsteps.jpg, id=544, 404.26031pt x 255.95625pt>
+File: Figures/kdsteps.jpg Graphic file (type jpg)
+
+<use Figures/kdsteps.jpg>
+Package pdftex.def Info: Figures/kdsteps.jpg used on input line 21.
+(pdftex.def)             Requested size: 404.25932pt x 255.95561pt.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 31.
+
+1: section
+[3]
+Overfull \hbox (3.18248pt too wide) in paragraph at lines 38--39
+\T1/ppl/m/n/12 With the help of di-men-sion-al-ity re-duc-tion or trans-for-ma-
+tion meth-ods, the num-
  []
 
-<Figures/classification.jpg, id=409, 963.6pt x 542.025pt>
+
+Overfull \hbox (1.0949pt too wide) in paragraph at lines 40--41
+\T1/ppl/m/n/12 searchers and prac-ti-tion-ers with dif-fer-ent back-grounds and
+ dif-fer-ent lan-guages
+ []
+
+[4 <C:/Users/Alvi17/Documents/ThesisPaper/Figures/kdsteps.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
+
+ []
+
+<Figures/datamining.jpg, id=555, 300.906pt x 191.187pt>
+File: Figures/datamining.jpg Graphic file (type jpg)
+
+<use Figures/datamining.jpg>
+Package pdftex.def Info: Figures/datamining.jpg used on input line 65.
+(pdftex.def)             Requested size: 412.56499pt x 262.15797pt.
+ [5] [6 <C:/Users/Alvi17/Documents/ThesisPaper/Figures/datamining.jpg>] [7]
+
+LaTeX Warning: Citation 'data cleaning' on page 8 undefined on input line 150.
+
+
+Overfull \hbox (4.86243pt too wide) in paragraph at lines 150--153
+\T1/ppl/m/n/12 Data that is to be an-a-lyzed by data min-ing tech-niques can be
+ in-com-plete(lacking
+ []
+
+
+Overfull \hbox (28.946pt too wide) in paragraph at lines 150--153
+\T1/ppl/m/n/12 data),noisy(containing er-rors,or out-lier val-ues which de-vi-a
+te from the ex-pected),and
+ []
+
+[8]
+
+LaTeX Warning: Citation 'Data Integration' on page 9 undefined on input line 17
+6.
+
+[9] [10]
+Overfull \hbox (2.95416pt too wide) in paragraph at lines 229--230
+\T1/ppl/m/n/12 structed to pre-dict class (cat-e-gor-i-cal) la-bels.This model 
+is a pre-dic-tor.Regression
+ []
+
+<Figures/classification.jpg, id=594, 963.6pt x 542.025pt>
 File: Figures/classification.jpg Graphic file (type jpg)
 
 <use Figures/classification.jpg>
-Package pdftex.def Info: Figures/classification.jpg used on input line 56.
-(pdftex.def)             Requested size: 361.34995pt x 203.25887pt.
+Package pdftex.def Info: Figures/classification.jpg used on input line 250.
+(pdftex.def)             Requested size: 412.56499pt x 232.06546pt.
 
-Overfull \hbox (3.55605pt too wide) in paragraph at lines 44--61
-$\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 x[]; x[]; ::::; x[]\OT1/cmr/m/n/10.95 
-)$ \T1/ppl/m/n/10.95 de-pict-ing n mea-sure-ments made on the tu-ple from n dat
-abase
+Overfull \hbox (72.63185pt too wide) in paragraph at lines 238--255
+\T1/ppl/m/n/12 ing n mea-sure-ments made on the tu-ple from n database at-tribu
+tes, respectively,$\OML/cmm/m/it/12 A[]; A[]; ::::A[]$\T1/ppl/m/n/12 .[][][][][
+]
  []
 
-1: section
-[3] [4 <C:/Users/Alvi17/Documents/ThesisPaper/Figures/classification.jpg>]
-<Figures/dm_decision_tree.jpg, id=433, 413.545pt x 294.09875pt>
+[11] [12 <C:/Users/Alvi17/Documents/ThesisPaper/Figures/classification.jpg>]
+<Figures/dm_decision_tree.jpg, id=617, 413.545pt x 294.09875pt>
 File: Figures/dm_decision_tree.jpg Graphic file (type jpg)
 
 <use Figures/dm_decision_tree.jpg>
-Package pdftex.def Info: Figures/dm_decision_tree.jpg used on input line 80.
-(pdftex.def)             Requested size: 361.34995pt x 256.98573pt.
+Package pdftex.def Info: Figures/dm_decision_tree.jpg used on input line 274.
+(pdftex.def)             Requested size: 412.56499pt x 293.40692pt.
 
-Overfull \hbox (17.0pt too wide) detected at line 130
+Overfull \hbox (17.62482pt too wide) detected at line 325
 [][] 
  []
 
-[5 <C:/Users/Alvi17/Documents/ThesisPaper/Figures/dm_decision_tree.jpg>]
-[6] [7] [8]) [9] (C:\Users\Alvi17\Documents\ThesisPaper\Chapters/Chapter3.tex
-[10
+[13 <C:/Users/Alvi17/Documents/ThesisPaper/Figures/dm_decision_tree.jpg>]
+[14] [15]
+Overfull \hbox (0.44543pt too wide) in paragraph at lines 383--388
+\T1/ppl/m/n/12 This value rep-re-sents the po-ten-tial in-for-ma-tion gen-er-at
+ed by split-ting the train-
+ []
+
+[16]
+Overfull \hbox (3.41026pt too wide) in paragraph at lines 406--417
+\T1/ppl/m/n/12 Attribute se-lec-tion mea-sures based on the Min-i-mum De-scrip-
+tion Length (MDL)
+ []
+
+) [17] (C:\Users\Alvi17\Documents\ThesisPaper\Chapters/Chapter3.tex [18
 
 
 
@@ -1631,7 +1701,7 @@ Overfull \hbox (17.0pt too wide) detected at line 130
 Chapter 3.
 )
 1: section
-[11] (C:\Users\Alvi17\Documents\ThesisPaper\Chapters/Chapter4.tex [12
+[19] (C:\Users\Alvi17\Documents\ThesisPaper\Chapters/Chapter4.tex [20
 
 
 
@@ -1639,196 +1709,214 @@ Chapter 3.
 Chapter 4.
 )
 1: section
-[13] (C:\Users\Alvi17\Documents\ThesisPaper\Chapters/Chapter5.tex [14
+[21] (C:\Users\Alvi17\Documents\ThesisPaper\Chapters/Chapter5.tex [22
 
 
 
 ]
 Chapter 5.
 
-Overfull \hbox (97.5839pt too wide) in paragraph at lines 41--53
+Overfull \hbox (1.52711pt too wide) in paragraph at lines 22--23
+\T1/ppl/m/n/12 The train-ing data was pre-pared af-ter data pre-pro-cess-ing as
+ de-scribed in Chaper
+ []
+
+
+Overfull \hbox (80.02055pt too wide) in paragraph at lines 41--53
  [][] 
  []
 
-<Figures/Presentation1_2.jpg, id=489, 963.6pt x 542.025pt>
+<Figures/Presentation1_2.jpg, id=674, 963.6pt x 542.025pt>
 File: Figures/Presentation1_2.jpg Graphic file (type jpg)
 
 <use Figures/Presentation1_2.jpg>
 Package pdftex.def Info: Figures/Presentation1_2.jpg used on input line 60.
-(pdftex.def)             Requested size: 361.34995pt x 203.25887pt.
+(pdftex.def)             Requested size: 412.56499pt x 232.06546pt.
 
 1: section
-[15] [16 <C:/Users/Alvi17/Documents/ThesisPaper/Figures/Presentation1_2.jpg>]
-Overfull \hbox (86.88304pt too wide) in paragraph at lines 83--83
-$\OML/cmm/m/it/10.95 attribute[]list\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 SID
-; Department; Hall; Attendance; ClassTest; Cgpa; CreditComplete\OT1/cmr/m/n/10.
-95 )$\T1/ppl/m/n/10.95 , 
+[23] [24 <C:/Users/Alvi17/Documents/ThesisPaper/Figures/Presentation1_2.jpg>]
+Overfull \hbox (68.29416pt too wide) in paragraph at lines 83--83
+$\OML/cmm/m/it/12 attribute[]list\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 SID; Departm
+ent; Hall; Attendance; ClassTest; Cgpa; CreditComplete\OT1/cmr/m/n/12 )$\T1/ppl
+/m/n/12 , 
  []
 
 
-Overfull \hbox (17.0pt too wide) detected at line 124
+Overfull \hbox (17.62482pt too wide) detected at line 124
 [][] 
  []
 
-[17]
-Overfull \hbox (41.73804pt too wide) in paragraph at lines 132--153
+[25]
+Overfull \vbox (1.43414pt too high) has occurred while \output is active []
+
+
+[26]
+Overfull \hbox (19.62505pt too wide) in paragraph at lines 132--153
  [][] 
  []
 
-[18]
-Overfull \hbox (101.5837pt too wide) in paragraph at lines 162--183
+
+Overfull \hbox (84.02036pt too wide) in paragraph at lines 162--183
  [][] 
  []
 
-
-Overfull \hbox (3.19861pt too wide) in paragraph at lines 185--186
-[]\T1/ppl/m/n/10.95 After ap-ply-ing al-go-r-tihm as desribed in Al-go-rithm []
-[]2[][] the re-sults as shown
- []
-
-[19]
-Overfull \hbox (11.0437pt too wide) in paragraph at lines 208--227
-\T1/ppl/m/n/10.95 The over-all per-for-mance of EEE de-part-ment is shown in Fi
-g-ure [][]5.2[][]. According
- []
-
-<Figures/Slide3.jpg, id=521, 963.6pt x 542.025pt>
+[27] <Figures/Slide3.jpg, id=707, 963.6pt x 542.025pt>
 File: Figures/Slide3.jpg Graphic file (type jpg)
- <use Figures/Slide3.jpg>
+
+<use Figures/Slide3.jpg>
 Package pdftex.def Info: Figures/Slide3.jpg used on input line 230.
-(pdftex.def)             Requested size: 361.34995pt x 203.25887pt.
-
-Overfull \hbox (11.17508pt too wide) in paragraph at lines 238--256
-\T1/ppl/m/n/10.95 The over-all per-for-mance of CSE de-part-ment is shown in Fi
-g-ure [][]5.3[][]. According
- []
-
-<Figures/Slide2.jpg, id=524, 963.6pt x 542.025pt>
+(pdftex.def)             Requested size: 412.56499pt x 232.06546pt.
+ <Figures/Slide2.jpg, id=710, 963.6pt x 542.025pt>
 File: Figures/Slide2.jpg Graphic file (type jpg)
- <use Figures/Slide2.jpg>
+
+<use Figures/Slide2.jpg>
 Package pdftex.def Info: Figures/Slide2.jpg used on input line 259.
-(pdftex.def)             Requested size: 361.34995pt x 203.25887pt.
-
-Overfull \hbox (7.96669pt too wide) in paragraph at lines 268--287
-\T1/ppl/m/n/10.95 The over-all per-for-mance of IPE de-part-ment is shown in Fi
-g-ure [][]5.4[][]. According
- []
-
-[20 <C:/Users/Alvi17/Documents/ThesisPaper/Figures/Slide3.jpg>] [21 <C:/Users/A
-lvi17/Documents/ThesisPaper/Figures/Slide2.jpg>]
-<Figures/Slide4.jpg, id=536, 963.6pt x 542.025pt>
+(pdftex.def)             Requested size: 412.56499pt x 232.06546pt.
+ <Figures/Slide4.jpg, id=713, 963.6pt x 542.025pt>
 File: Figures/Slide4.jpg Graphic file (type jpg)
- <use Figures/Slide4.jpg>
+
+<use Figures/Slide4.jpg>
 Package pdftex.def Info: Figures/Slide4.jpg used on input line 290.
-(pdftex.def)             Requested size: 361.34995pt x 203.25887pt.
-
-Overfull \hbox (8.02148pt too wide) in paragraph at lines 301--320
-\T1/ppl/m/n/10.95 The over-all per-for-mance of ME de-part-ment is shown in Fig
--ure [][]5.5[][]. According
- []
-
-<Figures/Slide5.jpg, id=539, 963.6pt x 542.025pt>
+(pdftex.def)             Requested size: 412.56499pt x 232.06546pt.
+ [28] [29 <C:/Users/Alvi17/Documents/ThesisPaper/Figures/Slide3.jpg> <C:/Users/
+Alvi17/Documents/ThesisPaper/Figures/Slide2.jpg>]
+[30 <C:/Users/Alvi17/Documents/ThesisPaper/Figures/Slide4.jpg>]
+<Figures/Slide5.jpg, id=728, 963.6pt x 542.025pt>
 File: Figures/Slide5.jpg Graphic file (type jpg)
  <use Figures/Slide5.jpg>
 Package pdftex.def Info: Figures/Slide5.jpg used on input line 323.
-(pdftex.def)             Requested size: 361.34995pt x 203.25887pt.
+(pdftex.def)             Requested size: 412.56499pt x 232.06546pt.
 
-Overfull \hbox (5.42635pt too wide) in paragraph at lines 333--352
-\T1/ppl/m/n/10.95 The over-all per-for-mance of CE de-part-ment is shown in Fig
--ure [][]5.6[][]. According
- []
-
-
-Overfull \hbox (1.0243pt too wide) in paragraph at lines 333--352
-\T1/ppl/m/n/10.95 to our clas-si-fier the per-cent-age of each class la-bel of 
-CE de-part-ment is shown
- []
-
-[22 <C:/Users/Alvi17/Documents/ThesisPaper/Figures/Slide4.jpg>]
-<Figures/Slide6.jpg, id=546, 963.6pt x 542.025pt>
+<Figures/Slide6.jpg, id=731, 963.6pt x 542.025pt>
 File: Figures/Slide6.jpg Graphic file (type jpg)
  <use Figures/Slide6.jpg>
 Package pdftex.def Info: Figures/Slide6.jpg used on input line 355.
-(pdftex.def)             Requested size: 361.34995pt x 203.25887pt.
+(pdftex.def)             Requested size: 412.56499pt x 232.06546pt.
 
-Overfull \hbox (18.38013pt too wide) in paragraph at lines 366--384
-\T1/ppl/m/n/10.95 The over-all per-for-mance of MME de-part-ment is shown in Fi
-g-ure [][]5.7[][]. According
+Overfull \hbox (3.57823pt too wide) in paragraph at lines 366--384
+\T1/ppl/m/n/12 The over-all per-for-mance of MME de-part-ment is shown in Fig-u
+re [][]5.7[][]. According
  []
 
-<Figures/Slide7.jpg, id=549, 963.6pt x 542.025pt>
+<Figures/Slide7.jpg, id=734, 963.6pt x 542.025pt>
 File: Figures/Slide7.jpg Graphic file (type jpg)
  <use Figures/Slide7.jpg>
 Package pdftex.def Info: Figures/Slide7.jpg used on input line 387.
-(pdftex.def)             Requested size: 361.34995pt x 203.25887pt.
+(pdftex.def)             Requested size: 412.56499pt x 232.06546pt.
 
-Overfull \hbox (14.53668pt too wide) in paragraph at lines 396--415
-\T1/ppl/m/n/10.95 The over-all per-for-mance of CHE de-part-ment is shown in Fi
-g-ure [][]5.8[][]. According
- []
-
-[23 <C:/Users/Alvi17/Documents/ThesisPaper/Figures/Slide5.jpg>] [24 <C:/Users/A
-lvi17/Documents/ThesisPaper/Figures/Slide6.jpg> <C:/Users/Alvi17/Documents/Thes
-isPaper/Figures/Slide7.jpg>] <Figures/Slide8.jpg, id=560, 963.6pt x 542.025pt>
+[31 <C:/Users/Alvi17/Documents/ThesisPaper/Figures/Slide5.jpg>] [32 <C:/Users/A
+lvi17/Documents/ThesisPaper/Figures/Slide6.jpg>]
+<Figures/Slide8.jpg, id=745, 963.6pt x 542.025pt>
 File: Figures/Slide8.jpg Graphic file (type jpg)
-
-<use Figures/Slide8.jpg>
+ <use Figures/Slide8.jpg>
 Package pdftex.def Info: Figures/Slide8.jpg used on input line 418.
-(pdftex.def)             Requested size: 361.34995pt x 203.25887pt.
+(pdftex.def)             Requested size: 412.56499pt x 232.06546pt.
 
-Overfull \hbox (25.63983pt too wide) in paragraph at lines 427--446
-\T1/ppl/m/n/10.95 The over-all per-for-mance of NAME de-part-ment is shown in F
-ig-ure [][]5.9[][]. According
+Overfull \hbox (11.53409pt too wide) in paragraph at lines 427--446
+\T1/ppl/m/n/12 The over-all per-for-mance of NAME de-part-ment is shown in Fig-
+ure [][]5.9[][]. According
  []
 
-<Figures/Slide9.jpg, id=563, 963.6pt x 542.025pt>
+<Figures/Slide9.jpg, id=748, 963.6pt x 542.025pt>
 File: Figures/Slide9.jpg Graphic file (type jpg)
  <use Figures/Slide9.jpg>
 Package pdftex.def Info: Figures/Slide9.jpg used on input line 449.
-(pdftex.def)             Requested size: 361.34995pt x 203.25887pt.
+(pdftex.def)             Requested size: 412.56499pt x 232.06546pt.
 
-Overfull \hbox (18.8946pt too wide) in paragraph at lines 458--477
-\T1/ppl/m/n/10.95 The over-all per-for-mance of URP de-part-ment is shown in Fi
-g-ure [][]5.10[][]. According
+Overfull \hbox (4.14204pt too wide) in paragraph at lines 458--477
+\T1/ppl/m/n/12 The over-all per-for-mance of URP de-part-ment is shown in Fig-u
+re [][]5.10[][]. According
  []
 
-[25 <C:/Users/Alvi17/Documents/ThesisPaper/Figures/Slide8.jpg>]
-<Figures/Slide10.jpg, id=570, 963.6pt x 542.025pt>
+<Figures/Slide10.jpg, id=751, 963.6pt x 542.025pt>
 File: Figures/Slide10.jpg Graphic file (type jpg)
  <use Figures/Slide10.jpg>
 Package pdftex.def Info: Figures/Slide10.jpg used on input line 480.
-(pdftex.def)             Requested size: 361.34995pt x 203.25887pt.
+(pdftex.def)             Requested size: 412.56499pt x 232.06546pt.
 
-<Figures/Slide11.jpg, id=573, 963.6pt x 542.025pt>
-File: Figures/Slide11.jpg Graphic file (type jpg)
- <use Figures/Slide11.jpg>
-Package pdftex.def Info: Figures/Slide11.jpg used on input line 513.
-(pdftex.def)             Requested size: 361.34995pt x 203.25887pt.
-
-Overfull \hbox (21.40234pt too wide) in paragraph at lines 523--542
-\T1/ppl/m/n/10.95 The over-all per-for-mance of WRE de-part-ment is shown in Fi
-g-ure [][]5.12[][]. According
+Overfull \hbox (15.38602pt too wide) in paragraph at lines 491--510
+\T1/ppl/m/n/12 The over-all per-for-mance of ARCH de-part-ment is shown in Fig-
+ure [][]5.11[][]. According
  []
 
-[26 <C:/Users/Alvi17/Documents/ThesisPaper/Figures/Slide9.jpg>] [27 <C:/Users/A
-lvi17/Documents/ThesisPaper/Figures/Slide10.jpg> <C:/Users/Alvi17/Documents/The
-sisPaper/Figures/Slide11.jpg>]
-<Figures/Slide12.jpg, id=585, 963.6pt x 542.025pt>
+[33 <C:/Users/Alvi17/Documents/ThesisPaper/Figures/Slide7.jpg>] [34 <C:/Users/A
+lvi17/Documents/ThesisPaper/Figures/Slide8.jpg> <C:/Users/Alvi17/Documents/Thes
+isPaper/Figures/Slide9.jpg>] [35 <C:/Users/Alvi17/Documents/ThesisPaper/Figures
+/Slide10.jpg>] <Figures/Slide11.jpg, id=767, 963.6pt x 542.025pt>
+File: Figures/Slide11.jpg Graphic file (type jpg)
+
+<use Figures/Slide11.jpg>
+Package pdftex.def Info: Figures/Slide11.jpg used on input line 513.
+(pdftex.def)             Requested size: 412.56499pt x 232.06546pt.
+
+Overfull \hbox (6.89024pt too wide) in paragraph at lines 523--542
+\T1/ppl/m/n/12 The over-all per-for-mance of WRE de-part-ment is shown in Fig-u
+re [][]5.12[][]. According
+ []
+
+<Figures/Slide12.jpg, id=770, 963.6pt x 542.025pt>
 File: Figures/Slide12.jpg Graphic file (type jpg)
  <use Figures/Slide12.jpg>
 Package pdftex.def Info: Figures/Slide12.jpg used on input line 545.
-(pdftex.def)             Requested size: 361.34995pt x 203.25887pt.
+(pdftex.def)             Requested size: 412.56499pt x 232.06546pt.
+
+<Figures/Slide19.jpg, id=771, 963.6pt x 542.025pt>
+File: Figures/Slide19.jpg Graphic file (type jpg)
+ <use Figures/Slide19.jpg>
+Package pdftex.def Info: Figures/Slide19.jpg used on input line 554.
+(pdftex.def)             Requested size: 412.56499pt x 232.06546pt.
+
+[36 <C:/Users/Alvi17/Documents/ThesisPaper/Figures/Slide11.jpg>] [37 <C:/Users/
+Alvi17/Documents/ThesisPaper/Figures/Slide12.jpg> <C:/Users/Alvi17/Documents/Th
+esisPaper/Figures/Slide19.jpg>]
+<Figures/Slide13.jpg, id=783, 963.6pt x 542.025pt>
+File: Figures/Slide13.jpg Graphic file (type jpg)
+ <use Figures/Slide13.jpg>
+Package pdftex.def Info: Figures/Slide13.jpg used on input line 569.
+(pdftex.def)             Requested size: 412.56499pt x 232.06546pt.
+
+<Figures/Slide14.jpg, id=786, 963.6pt x 542.025pt>
+File: Figures/Slide14.jpg Graphic file (type jpg)
+ <use Figures/Slide14.jpg>
+Package pdftex.def Info: Figures/Slide14.jpg used on input line 600.
+(pdftex.def)             Requested size: 412.56499pt x 232.06546pt.
+
+[38 <C:/Users/Alvi17/Documents/ThesisPaper/Figures/Slide13.jpg>] [39 <C:/Users/
+Alvi17/Documents/ThesisPaper/Figures/Slide14.jpg>]
+<Figures/Slide15.jpg, id=798, 963.6pt x 542.025pt>
+File: Figures/Slide15.jpg Graphic file (type jpg)
+ <use Figures/Slide15.jpg>
+Package pdftex.def Info: Figures/Slide15.jpg used on input line 632.
+(pdftex.def)             Requested size: 412.56499pt x 232.06546pt.
+
+<Figures/Slide16.jpg, id=801, 963.6pt x 542.025pt>
+File: Figures/Slide16.jpg Graphic file (type jpg)
+ <use Figures/Slide16.jpg>
+Package pdftex.def Info: Figures/Slide16.jpg used on input line 660.
+(pdftex.def)             Requested size: 412.56499pt x 232.06546pt.
+
+[40 <C:/Users/Alvi17/Documents/ThesisPaper/Figures/Slide15.jpg>] [41 <C:/Users/
+Alvi17/Documents/ThesisPaper/Figures/Slide16.jpg>]
+
+LaTeX Warning: Reference `fig:Impact of Credit completion on Performance' on pa
+ge 42 undefined on input line 690.
+
+<Figures/Slide18.jpg, id=811, 963.6pt x 542.025pt>
+File: Figures/Slide18.jpg Graphic file (type jpg)
+ <use Figures/Slide18.jpg>
+Package pdftex.def Info: Figures/Slide18.jpg used on input line 694.
+(pdftex.def)             Requested size: 412.56499pt x 232.06546pt.
 )
-[28 <C:/Users/Alvi17/Documents/ThesisPaper/Figures/Slide12.jpg>]
+[42 <C:/Users/Alvi17/Documents/ThesisPaper/Figures/Slide18.jpg>]
 (C:\Users\Alvi17\Documents\ThesisPaper\Chapters/Chapter6.tex
 Chapter 6.
 )
 1: section
-[29
+[43
 
 
 
-] (C:\Users\Alvi17\Documents\ThesisPaper\Appendices/AppendixA.tex [30
+] (C:\Users\Alvi17\Documents\ThesisPaper\Appendices/AppendixA.tex [44
 
 
 
@@ -1836,13 +1924,40 @@ Chapter 6.
 Appendix A.
 )
 1: section
-[31]
+[45]
 
 LaTeX Warning: Empty bibliography on input line 208.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 212.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 212.
-(C:\Users\Alvi17\Documents\ThesisPaper\main.aux
+[46
+
+
+]
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 214.
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\t1pcr.fd"
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 214--215
+[][][]$\T1/pcr/m/n/12 http : / / researcher . watson . ibm . com / researcher /
+ view _$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 216--217
+[][][]$\T1/pcr/m/n/12 http : / / www . usc . edu / dept / ancntr / Paris-[]in-[
+]LA / Analysis /$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 218--219
+[][][]$\T1/pcr/m/n/12 http : / / www . cs . ccsu . edu / ~markov / ccsu _ cours
+es /$
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 226.
+1: section
+[47]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 226.
+ (C:\Users\Alvi17\Documents\ThesisPaper\main.aux
 (C:\Users\Alvi17\Documents\ThesisPaper\Chapters/Chapter1.aux)
 (C:\Users\Alvi17\Documents\ThesisPaper\Chapters/Chapter2.aux)
 (C:\Users\Alvi17\Documents\ThesisPaper\Chapters/Chapter3.aux)
@@ -1850,10 +1965,28 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 212.
 (C:\Users\Alvi17\Documents\ThesisPaper\Chapters/Chapter5.aux)
 (C:\Users\Alvi17\Documents\ThesisPaper\Chapters/Chapter6.aux)
 (C:\Users\Alvi17\Documents\ThesisPaper\Appendices/AppendixA.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 212.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 212.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 8B7A5EC53A6B84CE382189FAD80F536F;7527.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 226.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 226.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 6EE27CFE86FDE828C1A752AFEA114721;11906
+(rerunfilecheck)             After:  16A0844DAD39165DAEA5CD367614BD9C;12370.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package biblatex Warning: Please (re)run BibTeX on the file(s):
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
  )
 (\end occurred inside a group at level 1)
@@ -1861,28 +1994,44 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 32473 strings out of 493921
- 646684 string characters out of 3144873
- 795169 words of memory out of 3000000
- 35242 multiletter control sequences out of 15000+200000
- 53632 words of font info for 92 fonts, out of 3000000 for 9000
+ 32765 strings out of 493921
+ 651699 string characters out of 3144873
+ 798090 words of memory out of 3000000
+ 35447 multiletter control sequences out of 15000+200000
+ 53032 words of font info for 92 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 57i,20n,82p,10377b,13880s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.
-enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pf
-b><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:
-/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Pr
-ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Progr
-am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program F
-iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Fil
-es (x86)/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Files (x86)
-/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Program Files (x86)/MiKTeX 
-2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
-s/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (47 pages, 2373602 bytes).
+ 56i,20n,82p,10377b,13883s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{appendix.145} has been referenced b
+ut does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.144} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.143} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.142} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{chapter.141} has been referenced but does not exist
+, replaced by a fixed one
+
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program 
+Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Fi
+les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program File
+s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files 
+(x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files (x8
+6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX
+ 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
+s/type1/urw/palatino/uplb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
+urw/palatino/uplr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/pala
+tino/uplr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/palatino/upl
+ri8a.pfb>
+Output written on main.pdf (63 pages, 2894387 bytes).
 PDF statistics:
- 673 PDF objects out of 1000 (max. 8388607)
- 149 named destinations out of 1000 (max. 500000)
- 495 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 948 PDF objects out of 1000 (max. 8388607)
+ 223 named destinations out of 1000 (max. 500000)
+ 719 words of extra memory for PDF output out of 10000 (max. 10000000)
 
