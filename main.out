@@ -1,78 +1,87 @@
-\BOOKMARK [0][-]{section*.1}{\376\377\000D\000e\000c\000l\000a\000r\000a\000t\000i\000o\000n\000\040\000o\000f\000\040\000A\000u\000t\000h\000o\000r\000s\000h\000i\000p}{}% 1
-\BOOKMARK [0][-]{section*.2}{\376\377\000A\000b\000s\000t\000r\000a\000c\000t}{}% 2
-\BOOKMARK [0][-]{section*.3}{\376\377\000A\000c\000k\000n\000o\000w\000l\000e\000d\000g\000e\000m\000e\000n\000t\000s}{}% 3
-\BOOKMARK [0][-]{chapter.7}{\376\377\000I\000n\000t\000r\000o\000d\000u\000c\000t\000i\000o\000n}{}% 4
-\BOOKMARK [0][-]{chapter.8}{\376\377\000L\000i\000t\000e\000r\000a\000t\000u\000r\000e\000\040\000S\000t\000u\000d\000y}{}% 5
-\BOOKMARK [1][-]{section.9}{\376\377\000K\000n\000o\000w\000l\000e\000d\000g\000e\000\040\000D\000i\000s\000c\000o\000v\000e\000r\000y\000\040\000S\000t\000e\000p\000s}{chapter.8}% 6
-\BOOKMARK [2][-]{subsection.11}{\376\377\000U\000n\000d\000e\000r\000s\000t\000a\000n\000d\000i\000n\000g\000\040\000t\000h\000e\000\040\000A\000p\000p\000l\000i\000c\000a\000t\000i\000o\000n\000\040\000D\000o\000m\000a\000i\000n}{section.9}% 7
-\BOOKMARK [2][-]{subsection.12}{\376\377\000S\000e\000l\000e\000c\000t\000i\000o\000n\000\040\000o\000f\000\040\000D\000a\000t\000a\000s\000e\000t}{section.9}% 8
-\BOOKMARK [2][-]{subsection.13}{\376\377\000D\000a\000t\000a\000\040\000C\000l\000e\000a\000n\000i\000n\000g}{section.9}% 9
-\BOOKMARK [2][-]{subsection.14}{\376\377\000D\000a\000t\000a\000\040\000t\000r\000a\000n\000s\000f\000o\000r\000m\000a\000t\000i\000o\000n}{section.9}% 10
-\BOOKMARK [2][-]{subsection.15}{\376\377\000F\000i\000n\000d\000i\000n\000g\000\040\000i\000n\000t\000e\000r\000e\000s\000t\000i\000n\000g\000\040\000f\000e\000a\000t\000u\000r\000e\000s\000\040\000i\000n\000\040\000t\000h\000e\000\040\000d\000a\000t\000a\000b\000a\000s\000e}{section.9}% 11
-\BOOKMARK [2][-]{subsection.16}{\376\377\000S\000e\000l\000e\000c\000t\000i\000o\000n\000\040\000o\000f\000\040\000d\000a\000t\000a\000\040\000m\000i\000n\000i\000n\000g\000\040\000t\000a\000s\000k}{section.9}% 12
-\BOOKMARK [2][-]{subsection.17}{\376\377\000S\000e\000l\000e\000c\000t\000i\000o\000n\000\040\000o\000f\000\040\000D\000a\000t\000a\000\040\000m\000i\000n\000i\000n\000g\000\040\000m\000e\000t\000h\000o\000d}{section.9}% 13
-\BOOKMARK [2][-]{subsection.18}{\376\377\000D\000a\000t\000a\000\040\000m\000i\000n\000i\000n\000g}{section.9}% 14
-\BOOKMARK [2][-]{subsection.19}{\376\377\000P\000a\000t\000t\000e\000r\000n\000\040\000e\000v\000a\000l\000u\000a\000t\000i\000o\000n}{section.9}% 15
-\BOOKMARK [2][-]{subsection.20}{\376\377\000K\000n\000o\000w\000l\000e\000d\000g\000e\000\040\000c\000o\000n\000s\000o\000l\000i\000d\000a\000t\000i\000o\000n}{section.9}% 16
-\BOOKMARK [1][-]{section.21}{\376\377\000D\000a\000t\000a\000\040\000M\000i\000n\000i\000n\000g\000\040\000C\000o\000n\000c\000e\000p\000t\000s}{chapter.8}% 17
-\BOOKMARK [2][-]{subsection.24}{\376\377\000D\000a\000t\000a\000b\000a\000s\000e\000\040\000D\000a\000t\000a}{section.21}% 18
-\BOOKMARK [2][-]{subsection.27}{\376\377\000D\000a\000t\000a\000\040\000W\000a\000r\000e\000h\000o\000u\000s\000e\000s}{section.21}% 19
-\BOOKMARK [2][-]{subsection.29}{\376\377\000T\000r\000a\000n\000s\000a\000c\000t\000i\000o\000n\000a\000l\000\040\000D\000a\000t\000a}{section.21}% 20
-\BOOKMARK [2][-]{subsection.31}{\376\377\000O\000t\000h\000e\000r\000\040\000K\000i\000n\000d\000s\000\040\000o\000f\000\040\000D\000a\000t\000a}{section.21}% 21
-\BOOKMARK [1][-]{section.33}{\376\377\000P\000r\000e\000p\000r\000o\000c\000e\000s\000s\000i\000n\000g}{chapter.8}% 22
-\BOOKMARK [2][-]{subsection.34}{\376\377\000D\000a\000t\000a\000\040\000C\000l\000e\000a\000n\000i\000n\000g}{section.33}% 23
-\BOOKMARK [2][-]{subsection.39}{\376\377\000D\000a\000t\000a\000\040\000I\000n\000t\000e\000g\000r\000a\000t\000i\000o\000n}{section.33}% 24
-\BOOKMARK [2][-]{subsection.40}{\376\377\000D\000a\000t\000a\000\040\000T\000r\000a\000n\000s\000f\000o\000r\000m\000a\000t\000i\000o\000n}{section.33}% 25
-\BOOKMARK [2][-]{subsection.41}{\376\377\000D\000a\000t\000a\000\040\000T\000r\000a\000n\000s\000f\000o\000r\000m\000a\000t\000i\000o\000n\000\040\000b\000y\000\040\000N\000o\000r\000m\000a\000l\000i\000z\000a\000t\000i\000o\000n}{section.33}% 26
-\BOOKMARK [1][-]{section.42}{\376\377\000C\000l\000a\000s\000s\000i\000f\000i\000c\000a\000t\000i\000o\000n}{chapter.8}% 27
-\BOOKMARK [2][-]{subsection.43}{\376\377\000B\000a\000s\000i\000c\000\040\000C\000o\000n\000c\000e\000p\000t}{section.42}% 28
-\BOOKMARK [2][-]{subsection.46}{\376\377\000G\000e\000n\000e\000r\000a\000l\000\040\000A\000p\000p\000r\000o\000a\000c\000h\000\040\000t\000o\000\040\000C\000l\000a\000s\000s\000i\000f\000i\000c\000a\000t\000i\000o\000n}{section.42}% 29
-\BOOKMARK [2][-]{subsection.52}{\376\377\000D\000e\000c\000i\000s\000i\000o\000n\000\040\000T\000r\000e\000e\000\040\000I\000n\000d\000u\000c\000t\000i\000o\000n}{section.42}% 30
-\BOOKMARK [2][-]{subsection.55}{\376\377\000D\000e\000c\000i\000s\000i\000o\000n\000\040\000T\000r\000e\000e\000\040\000I\000n\000d\000u\000c\000t\000i\000o\000n\000\040\000A\000l\000g\000o\000r\000i\000t\000h\000m}{section.42}% 31
-\BOOKMARK [2][-]{subsection.58}{\376\377\000A\000t\000t\000r\000i\000b\000u\000t\000e\000s\000\040\000S\000e\000l\000e\000c\000t\000i\000o\000n\000\040\000M\000e\000a\000s\000u\000r\000e\000s}{section.42}% 32
-\BOOKMARK [3][-]{section*.61}{\376\377\000I\000n\000f\000o\000r\000m\000a\000t\000i\000o\000n\000\040\000G\000a\000i\000n}{subsection.58}% 33
-\BOOKMARK [3][-]{section*.64}{\376\377\000G\000a\000i\000n\000\040\000R\000a\000t\000i\000o}{subsection.58}% 34
-\BOOKMARK [3][-]{section*.67}{\376\377\000G\000i\000n\000i\000\040\000I\000n\000d\000e\000x}{subsection.58}% 35
-\BOOKMARK [3][-]{section*.68}{\376\377\000O\000t\000h\000e\000r\000\040\000A\000t\000t\000r\000i\000b\000u\000t\000e\000\040\000S\000e\000l\000e\000c\000t\000i\000o\000n\000\040\000M\000e\000a\000s\000u\000r\000e\000s}{subsection.58}% 36
-\BOOKMARK [0][-]{chapter.69}{\376\377\000A\000n\000a\000l\000y\000s\000i\000s\000\040\000o\000f\000\040\000B\000I\000I\000S\000\040\000D\000a\000t\000a}{}% 37
-\BOOKMARK [1][-]{section.70}{\376\377\000S\000c\000o\000p\000e}{chapter.69}% 38
-\BOOKMARK [1][-]{section.71}{\376\377\000D\000a\000t\000a\000b\000a\000s\000e\000\040\000S\000t\000r\000u\000c\000t\000u\000r\000e}{chapter.69}% 39
-\BOOKMARK [1][-]{section.72}{\376\377\000P\000r\000o\000b\000l\000e\000m\000s\000\040\000i\000n\000\040\000E\000x\000i\000s\000t\000i\000n\000g\000\040\000S\000t\000r\000u\000c\000t\000u\000r\000e}{chapter.69}% 40
-\BOOKMARK [0][-]{chapter.73}{\376\377\000P\000r\000e\000p\000r\000o\000c\000e\000s\000s\000i\000n\000g}{}% 41
-\BOOKMARK [1][-]{section.74}{\376\377\000T\000e\000c\000h\000n\000i\000q\000u\000e\000\040\000A\000n\000d\000\040\000D\000e\000s\000i\000g\000n}{chapter.73}% 42
-\BOOKMARK [1][-]{section.75}{\376\377\000A\000l\000g\000o\000r\000i\000t\000h\000m\000s}{chapter.73}% 43
-\BOOKMARK [2][-]{subsection.76}{\376\377\000C\000l\000e\000a\000n\000i\000n\000g}{section.75}% 44
-\BOOKMARK [2][-]{subsection.77}{\376\377\000R\000e\000d\000u\000c\000t\000i\000o\000n}{section.75}% 45
-\BOOKMARK [2][-]{subsection.78}{\376\377\000I\000n\000t\000e\000g\000r\000a\000t\000i\000o\000n}{section.75}% 46
-\BOOKMARK [2][-]{subsection.79}{\376\377\000N\000o\000r\000m\000a\000l\000i\000z\000a\000t\000i\000o\000n}{section.75}% 47
-\BOOKMARK [1][-]{section.80}{\376\377\000R\000e\000s\000u\000l\000t\000s}{chapter.73}% 48
-\BOOKMARK [0][-]{chapter.81}{\376\377\000C\000l\000a\000s\000s\000i\000f\000i\000c\000a\000t\000i\000o\000n}{}% 49
-\BOOKMARK [1][-]{section.82}{\376\377\000D\000e\000c\000i\000s\000i\000o\000n\000\040\000T\000r\000e\000e}{chapter.81}% 50
-\BOOKMARK [1][-]{section.85}{\376\377\000A\000l\000g\000o\000r\000i\000t\000h\000m}{chapter.81}% 51
-\BOOKMARK [1][-]{section.88}{\376\377\000R\000e\000s\000u\000l\000t\000\040\000o\000f\000\040\000C\000l\000a\000s\000s\000i\000f\000i\000c\000a\000t\000i\000o\000n}{chapter.81}% 52
-\BOOKMARK [1][-]{section.91}{\376\377\000S\000t\000a\000t\000i\000s\000t\000i\000c\000a\000l\000\040\000A\000n\000a\000l\000y\000s\000i\000s}{chapter.81}% 53
-\BOOKMARK [1][-]{section.92}{\376\377\000R\000e\000s\000u\000l\000t\000\040\000o\000f\000\040\000S\000t\000a\000t\000i\000s\000t\000i\000c\000a\000l\000\040\000A\000n\000a\000l\000y\000s\000i\000s}{chapter.81}% 54
-\BOOKMARK [2][-]{subsection.93}{\376\377\000D\000e\000p\000a\000r\000t\000m\000e\000n\000t\000\040\000w\000i\000s\000e\000\040\000P\000e\000r\000f\000o\000r\000m\000a\000n\000c\000e}{section.92}% 55
-\BOOKMARK [3][-]{section*.94}{\376\377\000E\000E\000E\000\040\000D\000e\000p\000a\000r\000t\000m\000e\000n\000t}{subsection.93}% 56
-\BOOKMARK [3][-]{section*.97}{\376\377\000C\000S\000E\000\040\000D\000e\000p\000a\000r\000t\000m\000e\000n\000t}{subsection.93}% 57
-\BOOKMARK [3][-]{section*.100}{\376\377\000I\000P\000E\000\040\000D\000e\000p\000a\000r\000t\000m\000e\000n\000t}{subsection.93}% 58
-\BOOKMARK [3][-]{section*.103}{\376\377\000M\000E\000\040\000D\000e\000p\000a\000r\000t\000m\000e\000n\000t}{subsection.93}% 59
-\BOOKMARK [3][-]{section*.106}{\376\377\000C\000E\000\040\000D\000e\000p\000a\000r\000t\000m\000e\000n\000t}{subsection.93}% 60
-\BOOKMARK [3][-]{section*.109}{\376\377\000M\000M\000E\000\040\000D\000e\000p\000a\000r\000t\000m\000e\000n\000t}{subsection.93}% 61
-\BOOKMARK [3][-]{section*.112}{\376\377\000C\000H\000E\000\040\000D\000e\000p\000a\000r\000t\000m\000e\000n\000t}{subsection.93}% 62
-\BOOKMARK [3][-]{section*.115}{\376\377\000N\000A\000M\000E\000\040\000D\000e\000p\000a\000r\000t\000m\000e\000n\000t}{subsection.93}% 63
-\BOOKMARK [3][-]{section*.118}{\376\377\000U\000R\000P\000\040\000D\000e\000p\000a\000r\000t\000m\000e\000n\000t}{subsection.93}% 64
-\BOOKMARK [3][-]{section*.121}{\376\377\000A\000R\000C\000H\000\040\000D\000e\000p\000a\000r\000t\000m\000e\000n\000t}{subsection.93}% 65
-\BOOKMARK [3][-]{section*.124}{\376\377\000W\000R\000E\000\040\000D\000e\000p\000a\000r\000t\000m\000e\000n\000t}{subsection.93}% 66
-\BOOKMARK [3][-]{section*.127}{\376\377\000O\000v\000e\000r\000a\000l\000l\000\040\000D\000e\000p\000a\000r\000t\000m\000e\000n\000t\000\040\000w\000i\000s\000e\000\040\000P\000e\000r\000f\000o\000r\000m\000a\000n\000c\000e}{subsection.93}% 67
-\BOOKMARK [2][-]{subsection.129}{\376\377\000I\000m\000p\000a\000c\000t\000\040\000o\000f\000\040\000G\000e\000n\000d\000e\000r\000\040\000o\000n\000\040\000P\000e\000r\000f\000o\000r\000m\000a\000n\000c\000e}{section.92}% 68
-\BOOKMARK [2][-]{subsection.132}{\376\377\000I\000m\000p\000a\000c\000t\000\040\000o\000f\000\040\000H\000a\000l\000l\000\040\000S\000t\000a\000t\000u\000s\000\040\000o\000n\000\040\000P\000e\000r\000f\000o\000r\000m\000a\000n\000c\000e}{section.92}% 69
-\BOOKMARK [2][-]{subsection.135}{\376\377\000I\000m\000p\000a\000c\000t\000\040\000o\000f\000\040\000C\000l\000a\000s\000s\000\040\000A\000t\000t\000e\000n\000d\000a\000n\000c\000e\000\040\000M\000a\000r\000k\000s}{section.92}% 70
-\BOOKMARK [2][-]{subsection.138}{\376\377\000I\000m\000p\000a\000c\000t\000\040\000o\000f\000\040\000C\000l\000a\000s\000s\000\040\000T\000e\000s\000t\000\040\000M\000a\000r\000k\000s\000\040\000o\000n\000\040\000P\000e\000r\000f\000o\000r\000m\000a\000n\000c\000e}{section.92}% 71
-\BOOKMARK [2][-]{subsection.141}{\376\377\000I\000m\000p\000a\000c\000t\000\040\000o\000f\000\040\000C\000G\000P\000A\000\040\000o\000n\000\040\000O\000v\000e\000r\000a\000l\000l\000\040\000P\000e\000r\000f\000o\000r\000m\000a\000n\000c\000e}{section.92}% 72
-\BOOKMARK [2][-]{subsection.142}{\376\377\000I\000m\000p\000a\000c\000t\000\040\000o\000f\000\040\000C\000r\000e\000d\000i\000t\000\040\000C\000o\000m\000p\000l\000e\000t\000i\000o\000n}{section.92}% 73
-\BOOKMARK [0][-]{chapter.144}{\376\377\000C\000o\000n\000c\000l\000u\000s\000i\000o\000n}{}% 74
-\BOOKMARK [1][-]{section.145}{\376\377\000S\000u\000m\000m\000a\000r\000y\000\040\000o\000f\000\040\000T\000h\000e\000s\000i\000s}{chapter.144}% 75
-\BOOKMARK [1][-]{section.146}{\376\377\000G\000e\000n\000e\000r\000a\000l\000\040\000F\000i\000n\000d\000i\000n\000g\000s}{chapter.144}% 76
-\BOOKMARK [1][-]{section.147}{\376\377\000F\000u\000t\000u\000r\000e\000\040\000W\000o\000r\000k\000s}{chapter.144}% 77
-\BOOKMARK [0][-]{appendix.148}{\376\377\000A\000p\000p\000e\000n\000d\000i\000x\000\040\000T\000i\000t\000l\000e\000\040\000H\000e\000r\000e}{}% 78
+\BOOKMARK [0][-]{section*.2}{Declaration of Authorship}{}% 1
+\BOOKMARK [0][-]{section*.3}{Abstract}{}% 2
+\BOOKMARK [0][-]{section*.4}{Acknowledgements}{}% 3
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 4
+\BOOKMARK [1][-]{section.1.1}{Problem Definition}{chapter.1}% 5
+\BOOKMARK [1][-]{section.1.2}{Scope of the Work}{chapter.1}% 6
+\BOOKMARK [1][-]{section.1.3}{Objectives}{chapter.1}% 7
+\BOOKMARK [1][-]{section.1.4}{Thesis organization}{chapter.1}% 8
+\BOOKMARK [0][-]{chapter.2}{Literature Study}{}% 9
+\BOOKMARK [1][-]{section.2.1}{Knowledge Discovery Steps}{chapter.2}% 10
+\BOOKMARK [2][-]{subsection.2.1.1}{Understanding the Application Domain}{section.2.1}% 11
+\BOOKMARK [2][-]{subsection.2.1.2}{Selection of Dataset}{section.2.1}% 12
+\BOOKMARK [2][-]{subsection.2.1.3}{Data Cleaning}{section.2.1}% 13
+\BOOKMARK [2][-]{subsection.2.1.4}{Data transformation}{section.2.1}% 14
+\BOOKMARK [2][-]{subsection.2.1.5}{Finding interesting features in the database}{section.2.1}% 15
+\BOOKMARK [2][-]{subsection.2.1.6}{Selection of data mining task}{section.2.1}% 16
+\BOOKMARK [2][-]{subsection.2.1.7}{Selection of Data mining method}{section.2.1}% 17
+\BOOKMARK [2][-]{subsection.2.1.8}{Data mining}{section.2.1}% 18
+\BOOKMARK [2][-]{subsection.2.1.9}{Pattern evaluation}{section.2.1}% 19
+\BOOKMARK [2][-]{subsection.2.1.10}{Knowledge consolidation}{section.2.1}% 20
+\BOOKMARK [1][-]{section.2.2}{Data Mining Concepts}{chapter.2}% 21
+\BOOKMARK [2][-]{subsection.2.2.1}{Database Data}{section.2.2}% 22
+\BOOKMARK [2][-]{subsection.2.2.2}{Data Warehouses}{section.2.2}% 23
+\BOOKMARK [2][-]{subsection.2.2.3}{Transactional Data}{section.2.2}% 24
+\BOOKMARK [2][-]{subsection.2.2.4}{Other Kinds of Data}{section.2.2}% 25
+\BOOKMARK [1][-]{section.2.3}{Preprocessing}{chapter.2}% 26
+\BOOKMARK [2][-]{subsection.2.3.1}{Data Cleaning}{section.2.3}% 27
+\BOOKMARK [2][-]{subsection.2.3.2}{Data Integration}{section.2.3}% 28
+\BOOKMARK [2][-]{subsection.2.3.3}{Data Transformation}{section.2.3}% 29
+\BOOKMARK [2][-]{subsection.2.3.4}{Data Transformation by Normalization}{section.2.3}% 30
+\BOOKMARK [2][-]{subsection.2.3.5}{Data Discretization}{section.2.3}% 31
+\BOOKMARK [3][-]{section*.16}{Discretization by Binning}{subsection.2.3.5}% 32
+\BOOKMARK [3][-]{section*.17}{Discretization by Histogram Analysis}{subsection.2.3.5}% 33
+\BOOKMARK [3][-]{section*.18}{Discretization by Cluster, Decision Tree, and Correlation Analyses}{subsection.2.3.5}% 34
+\BOOKMARK [1][-]{section.2.4}{Classification}{chapter.2}% 35
+\BOOKMARK [2][-]{subsection.2.4.1}{Basic Concept}{section.2.4}% 36
+\BOOKMARK [2][-]{subsection.2.4.2}{General Approach to Classification}{section.2.4}% 37
+\BOOKMARK [2][-]{subsection.2.4.3}{Decision Tree Induction}{section.2.4}% 38
+\BOOKMARK [2][-]{subsection.2.4.4}{Decision Tree Induction Algorithm}{section.2.4}% 39
+\BOOKMARK [2][-]{subsection.2.4.5}{Attributes Selection Measures}{section.2.4}% 40
+\BOOKMARK [3][-]{section*.28}{Information Gain}{subsection.2.4.5}% 41
+\BOOKMARK [3][-]{section*.31}{Gain Ratio}{subsection.2.4.5}% 42
+\BOOKMARK [3][-]{section*.34}{Gini Index}{subsection.2.4.5}% 43
+\BOOKMARK [3][-]{section*.35}{Other Attribute Selection Measures}{subsection.2.4.5}% 44
+\BOOKMARK [0][-]{chapter.3}{Analysis of BIIS Data}{}% 45
+\BOOKMARK [1][-]{section.3.1}{Scope}{chapter.3}% 46
+\BOOKMARK [1][-]{section.3.2}{Database Structure}{chapter.3}% 47
+\BOOKMARK [1][-]{section.3.3}{Problems in Existing Structure}{chapter.3}% 48
+\BOOKMARK [0][-]{chapter.4}{Preprocessing}{}% 49
+\BOOKMARK [1][-]{section.4.1}{Technique And Design}{chapter.4}% 50
+\BOOKMARK [2][-]{subsection.4.1.1}{Data Cleaning}{section.4.1}% 51
+\BOOKMARK [2][-]{subsection.4.1.2}{Data Normalization}{section.4.1}% 52
+\BOOKMARK [2][-]{subsection.4.1.3}{Data Transformation}{section.4.1}% 53
+\BOOKMARK [1][-]{section.4.2}{Results}{chapter.4}% 54
+\BOOKMARK [0][-]{chapter.5}{Classification}{}% 55
+\BOOKMARK [1][-]{section.5.1}{Decision Tree}{chapter.5}% 56
+\BOOKMARK [1][-]{section.5.2}{Algorithm}{chapter.5}% 57
+\BOOKMARK [1][-]{section.5.3}{Result of Classification}{chapter.5}% 58
+\BOOKMARK [1][-]{section.5.4}{Statistical Analysis}{chapter.5}% 59
+\BOOKMARK [1][-]{section.5.5}{Result of Statistical Analysis}{chapter.5}% 60
+\BOOKMARK [2][-]{subsection.5.5.1}{Department wise Performance}{section.5.5}% 61
+\BOOKMARK [3][-]{section*.54}{EEE Department}{subsection.5.5.1}% 62
+\BOOKMARK [3][-]{section*.57}{CSE Department}{subsection.5.5.1}% 63
+\BOOKMARK [3][-]{section*.60}{IPE Department}{subsection.5.5.1}% 64
+\BOOKMARK [3][-]{section*.63}{ME Department}{subsection.5.5.1}% 65
+\BOOKMARK [3][-]{section*.66}{CE Department}{subsection.5.5.1}% 66
+\BOOKMARK [3][-]{section*.69}{MME Department}{subsection.5.5.1}% 67
+\BOOKMARK [3][-]{section*.72}{CHE Department}{subsection.5.5.1}% 68
+\BOOKMARK [3][-]{section*.75}{NAME Department}{subsection.5.5.1}% 69
+\BOOKMARK [3][-]{section*.78}{URP Department}{subsection.5.5.1}% 70
+\BOOKMARK [3][-]{section*.81}{ARCH Department}{subsection.5.5.1}% 71
+\BOOKMARK [3][-]{section*.84}{WRE Department}{subsection.5.5.1}% 72
+\BOOKMARK [3][-]{section*.87}{Overall Department wise Performance}{subsection.5.5.1}% 73
+\BOOKMARK [2][-]{subsection.5.5.2}{Impact of Gender on Performance}{section.5.5}% 74
+\BOOKMARK [2][-]{subsection.5.5.3}{Impact of Hall Status on Performance}{section.5.5}% 75
+\BOOKMARK [2][-]{subsection.5.5.4}{Impact of Class Attendance Marks}{section.5.5}% 76
+\BOOKMARK [2][-]{subsection.5.5.5}{Impact of Class Test Marks on Performance}{section.5.5}% 77
+\BOOKMARK [2][-]{subsection.5.5.6}{Impact of CGPA on Overall Performance}{section.5.5}% 78
+\BOOKMARK [2][-]{subsection.5.5.7}{Impact of Credit Completion}{section.5.5}% 79
+\BOOKMARK [0][-]{chapter.6}{Conclusion}{}% 80
+\BOOKMARK [1][-]{section.6.1}{Summary of Thesis}{chapter.6}% 81
+\BOOKMARK [1][-]{section.6.2}{General Findings}{chapter.6}% 82
+\BOOKMARK [1][-]{section.6.3}{Future Works}{chapter.6}% 83
+\BOOKMARK [0][-]{appendix.A}{Data Samples}{}% 84
+\BOOKMARK [0][-]{appendix.B}{More Statistical Analysis Results}{}% 85
+\BOOKMARK [1][-]{section.B.1}{Department wise Different Grade Comparison}{appendix.B}% 86
+\BOOKMARK [0][-]{appendix.C}{Details of Department Name}{}% 87

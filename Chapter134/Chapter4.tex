@@ -1,0 +1,254 @@
+% Chapter 4
+\documentclass[a4paper,12pt]{book}
+\usepackage{hyperref}
+\usepackage{array}
+\usepackage{floatrow}
+\DeclareFloatFont{tiny}{\tiny}
+% \floatsetup[table]{font=tiny}
+\usepackage{amsmath}
+\begin{document}
+\chapter{Preprocessing} % Main chapter title
+
+\label{Preprocessing} % For referencing the chapter elsewhere, use \ref{Chapter1} 
+
+%----------------------------------------------------------------------------------------
+
+% Define some commands to keep the formatting separated from the content 
+
+%----------------------------------------------------------------------------------------
+
+\section{Technique And Design}
+The universal database contains raw data of academic performance of the students.There are plenty of problems in this Database which has been discussed in \textit{Chapter3}.A rigorous preprocessing technique is highly needed for turn the database into a suitable one for the classification implementation.The classification algorithm demands a clean and quality dataset without which it can't proceed efficiently.In this procedure,there were several steps taken for the data preprocessing. 
+\subsection{Data Cleaning}
+\begin{itemize}
+\item One of the main problems with the universal database was,there are several attributes where no value was not inserted at all.In result,there are plenty of blank in the data sheet. As the first step of cleaning,these missing values were filled up using intuition and global constant.For example, data sheet 1 had some blank attributes like the following:
+\begin {table}[H]
+\caption {Blank attributes in the Universal Database} \label{tab:title}
+\begin{center}
+\begin{tabular}{ | m{1cm} | m{2cm}| m{0.5cm}| m{2cm} | m{2cm} | m{2cm} |  m{0.5cm} | } 
+\hline
+Serial & Department & ... & CourseName & PartAMark & PartBMark & ... \\ 
+\hline
+65 & CSE & ... & CSE100 & - & - & ... \\ 
+\hline
+65 & CSE & ... & CSE210 & - & - & ... \\ 
+\hline
+... & ... & ... & ... & ... & ... & ... \\ 
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+The \textit{PartAMark \& PartBMark} fields are blank because the tuples are for sessional courses and only theory courses have Part A and Part B factor. \newline
+In this case,these two fields have been filled up with 0.After the process,table looked like this,
+\begin {table}[H]
+\caption {Universal database after filling up blank attributes} \label{tab:title}
+\begin{center}
+\begin{tabular}{ | m{1cm} | m{2cm}| m{0.5cm}| m{2cm} | m{2cm} | m{2cm} |  m{0.5cm} | } 
+\hline
+Serial & Department & ... & CourseName & PartAMark & PartBMark & ... \\ 
+\hline
+65 & CSE & ... & CSE100 & 0 & 0 & ... \\ 
+\hline
+65 & CSE & ... & CSE210 & 0 & 0 & ... \\ 
+\hline
+... & ... & ... & ... & ... & ... & ... \\ 
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+\item There are several attributes in the dataset which are not really needed for the classification implementation.As we are going to implement the excellency of a student in academic career,attributes like \textit{District,Thana,} \textit{PlaceOfBirth,AdmissionDate,StartingDate} are not going to affect the classification algorithm anyway.So,all the database has been got rid of all the redundant attributes.
+Before this procedure,the database was like the following:
+\begin {table}[H]
+\caption {Redundant attributes in Database} \label{tab:title}
+\begin{center}
+\begin{tabular}{ | m{1cm} | m{2cm}| m{1.5cm}| m{1.5cm} | m{2cm} | m{2cm} |  m{0.5cm} | } 
+\hline
+Serial & Department & District & Thana & CourseName & LetterGrade & ... \\ 
+\hline
+4478 & NAME & Dhaka & Dhamrai & MATH141 & A & ... \\ 
+\hline
+14251 & MME & Satkhira & koloroa & PHY143 & B+ & ... \\ 
+\hline
+... & ... & ... & ... & ... & ... & ... \\ 
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+After data cleaning process,the redundant attributes have been taken care of.
+\begin {table}[H]
+\caption {Database after cleaning of redundant attributes} \label{tab:title}
+\begin{center}
+\begin{tabular}{ | m{1cm} |  m{2cm} | m{2cm} | m{2cm} |  m{0.5cm} | } 
+\hline
+Serial & Department &  CourseName & LetterGrade & ... \\ 
+\hline
+4478 & NAME & MATH141 & A & ... \\ 
+\hline
+14251 & MME & PHY143 & B+ & ... \\ 
+\hline
+... & ... & ... & ... & ... \\ 
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+\item The universal database is filled with plenty of inconsistent data.These data types are not compatible with the procedure of ID3 classification.Some steps were taken to change these inconsistent data type to a consistent one. \newline
+The \textit{Gender} and \textit{HallStatus} fields are filled with binary value.\textit{Gender} is represented as \textit{Male} or \textit{Female} and \textit{HallStatus} is represented with \textit{Resident} or \textit{Attached}.
+\begin {table}[H]
+\caption {Database wth binary values} \label{tab:title}
+\begin{center}
+\begin{tabular}{ | m{1cm} |  m{2cm} | m{2cm} | m{2cm} |  m{0.5cm} | } 
+\hline
+Serial & Department &  Gender & HallStatus & ... \\ 
+\hline
+4478 & NAME & Male & Attached & ... \\ 
+\hline
+14251 & MME & Male & Resident & ... \\ 
+\hline
+... & ... & ... & ... & ... \\ 
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+The values are converted to numeric  from binary so that the data set becomes compatible with the ID3 procedure.
+\begin {table}[H]
+\caption {Database after conversion of binary attributes to numeric value} \label{tab:title}
+\begin{center}
+\begin{tabular}{ | m{1cm} |  m{2cm} | m{2cm} | m{2cm} |  m{0.5cm} | } 
+\hline
+Serial & Department &  Gender & HallStatus & ... \\ 
+\hline
+4478 & NAME & 0 & 1 & ... \\ 
+\hline
+14251 & MME & 0 & 0 & ... \\ 
+\hline
+... & ... & ... & ... & ... \\ 
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+\item A crucial fault in the universal database is,it doesn't have any \textit{CourseCreditHour} attribute and some data sheets don't have the correct value of \textit{CGPA} as well.The \textit{CGPA} field is rounded in some data sheets.Which does not represent the accurate value.But for proper calculation,accurate \textit{CGPA} and \textit{GPA} is must.
+\begin {table}[H]
+\caption {Database before Data cleaning} \label{tab:title}
+\begin{center}
+\begin{tabular}{ | m{1cm} |  m{2cm} | m{2.1cm} | m{2cm} | m{2cm} | m{0.5cm} | } 
+\hline
+Serial & Department &  CourseName & GPA & CGPA & ... \\ 
+\hline
+4478 & NAME & MATH141 & 3 & 3 & ... \\ 
+\hline
+14251 & MME & PHY143 & 3 & 3 & ... \\ 
+\hline
+... & ... & ... & ... & ... & ... \\ 
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+In this case,with the help of other attributes of the database, \textit{CourseCreditHour}, \textit{GPA} and \textit{CGPA} is calculated.\newline
+At first, \textit{Numberpercentage} is calculated from \textit{LetterGrade} attribute.
+\begin {table}[H]
+\caption {Letter Grade and it's respective percentage of number} \label{tab:title}
+\begin{center}
+\begin{tabular}{ | m{2.2cm} |  m{4cm} | } 
+\hline
+LetterGrade & NumberPercentage \\ 
+\hline
+A+ & 80\%-100\% \\ 
+\hline
+A & 75\%-79\% \\
+\hline
+A- & 70\%-74\% \\
+\hline
+B+ & 65\%-69\% \\
+\hline
+B & 60\%-64\% \\
+\hline
+B- & 55\%-59\% \\
+\hline
+C+ & 50\%-54\% \\
+\hline
+C & 45\%-49\% \\ 
+\hline
+D & 40\%-44\% \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+Then,the \textit{CourseCreditHour} is calculated from the following equation.
+\begin{equation} \label{eq1}
+\begin{split}
+CourseCreditHour & = \frac{TotalNumber}{NumberPercentage} \\
+\end{split}
+\end{equation}
+After the modification in \textit{CourseCreditHour},the database looks like the following:
+\begin {table}[H]
+\caption {Database after addition of CourseCreditHour attribute} \label{tab:title}
+\begin{center}
+\begin{tabular}{ | m{1cm} |  m{2cm} | m{2.1cm} | m{1cm} | m{3.1cm} | m{0.5cm} | } 
+\hline
+Serial & Department &  CourseName & GPA & CourseCreditHour & ... \\ 
+\hline
+4478 & NAME & MATH141 & 3.5 & 4 & ... \\ 
+\hline
+14251 & MME & PHY143 & 3.25 & 3 & ... \\ 
+\hline
+... & ... & ... & ... & ... & ... \\ 
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+In the ID3 implementation,the final \textit{CGPA} of student is used only.It is calculated using the 
+\textit{CourseCreditHour} and \textit{GPA}  attribute of all courses the student is enrolled to.
+ \begin{equation} \label{eq1}
+\begin{split}
+CGPA & = \frac{\sum (CourseCreditHour * CourseGPA)}{\sum CourseCreditHour} \\
+\end{split}
+\end{equation}
+After the modification in \textit{CGPA},the database looks like the following:
+\begin {table}[H]
+\caption {Database after calculation of final CGPA} \label{tab:title}
+\begin{center}
+\begin{tabular}{ | m{1cm} |  m{2cm} | m{2cm} | m{2cm} | } 
+\hline
+Serial & Department & CGPA & ... \\ 
+\hline
+4478 & NAME & 3.46 & ... \\ 
+\hline
+14251 & MME & 3.1 & ... \\ 
+\hline
+... & ... & ... & ... \\ 
+\hline
+\end{tabular}
+
+\end{center}
+
+\end{table}
+In this phase,one student has only one tuple in the database.
+\end{itemize}
+
+\subsection{Data Normalization}
+
+%----------------------------------------------------------------------------------------
+
+\section{Results}
+After implementing some crucial data preprocessing procedures,the modified database is at last suitable for the next step,implementation of ID3 algorithm using decision tree.The final test data has only the relevant attributes in compatible format.The attributes are \textit{Serial,Department,HallStatus,Gender,}\newline \textit{ClassTestMark,AttendanceMark,CGPA and TotalCourseCompleted.} \newline
+After the Data Cleaning and Data Normalization the final test data:
+\begin {table}[H]
+\caption {Final test data after preprocessing} \label{tab:title} 
+\begin{center}
+\begin{tabular}{ | m{0.8cm} |  m{2cm} | m{1cm} | m{1.1cm} | m{1.9cm} | m{0.8cm} | m{1cm} |m{1.8cm} | } 
+\hline
+Serial & Department &  Hall \newline Status & Gender & Attendance & Class \newline Test & CGPA & Course \newline Completed \\ 
+\hline
+4478 & 6 & 0 & 1 & 0.82 & 0.72 & 3.8 & 1 \\ 
+\hline
+4480 & 8 & 0 & 0 & 0.96 & 0.66 & 2.99 & 1 \\ 
+\hline
+14251 & 2 & 1 & 1 & 0.64 & 0.67 & 3.11 & 1 \\ 
+\hline
+... & ... & ... & ... & ... & ... & ... & ... \\ 
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+\end{document}

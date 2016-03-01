@@ -1,28 +1,41 @@
-\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
-\defcounter {refsection}{0}\relax 
 \select@language {english}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {table}{\numberline {3.1}{\ignorespaces Multiple entries for single student in the Universal Database\relax }}{32}{table.caption.36}
+\contentsline {table}{\numberline {3.2}{\ignorespaces Blank attributes in Database\relax }}{32}{table.caption.37}
+\contentsline {table}{\numberline {3.3}{\ignorespaces Rounded up value of CGPA and GPA\relax }}{32}{table.caption.38}
+\contentsline {table}{\numberline {3.4}{\ignorespaces Different range of values\relax }}{32}{table.caption.39}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces Blank attributes in the Universal Database\relax }}{37}{table.caption.40}
+\contentsline {table}{\numberline {4.2}{\ignorespaces Universal database after filling up blank attributes\relax }}{37}{table.caption.41}
+\contentsline {table}{\numberline {4.3}{\ignorespaces Redundant attributes in Database\relax }}{37}{table.caption.42}
+\contentsline {table}{\numberline {4.4}{\ignorespaces Database after cleaning of redundant attributes\relax }}{37}{table.caption.43}
+\contentsline {table}{\numberline {4.5}{\ignorespaces Database wth binary values\relax }}{37}{table.caption.44}
+\contentsline {table}{\numberline {4.6}{\ignorespaces Database after conversion of binary attributes to numeric value\relax }}{38}{table.caption.45}
+\contentsline {table}{\numberline {4.7}{\ignorespaces Database before Data cleaning\relax }}{38}{table.caption.46}
+\contentsline {table}{\numberline {4.8}{\ignorespaces Letter Grade and it's respective percentage of number\relax }}{38}{table.caption.47}
+\contentsline {table}{\numberline {4.9}{\ignorespaces Database after addition of CourseCreditHour attribute\relax }}{38}{table.caption.48}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {5.1}{\ignorespaces Training Data Sample\relax }}{40}{table.caption.49}
+\contentsline {table}{\numberline {5.2}{\ignorespaces Test Data Sample\relax }}{43}{table.caption.52}
+\contentsline {table}{\numberline {5.3}{\ignorespaces Final Output Sample\relax }}{43}{table.caption.53}
+\contentsline {table}{\numberline {5.4}{\ignorespaces Performance of EEE department\relax }}{44}{table.caption.55}
+\contentsline {table}{\numberline {5.5}{\ignorespaces Performance of CSE Department\relax }}{44}{table.caption.58}
+\contentsline {table}{\numberline {5.6}{\ignorespaces Performance of IPE Department\relax }}{46}{table.caption.61}
+\contentsline {table}{\numberline {5.7}{\ignorespaces Performance of ME Department\relax }}{47}{table.caption.64}
+\contentsline {table}{\numberline {5.8}{\ignorespaces Performance of CE Department\relax }}{48}{table.caption.67}
+\contentsline {table}{\numberline {5.9}{\ignorespaces Performance of MME Department\relax }}{49}{table.caption.70}
+\contentsline {table}{\numberline {5.10}{\ignorespaces Performance of CHE Department\relax }}{50}{table.caption.73}
+\contentsline {table}{\numberline {5.11}{\ignorespaces Performance of NAME Department\relax }}{51}{table.caption.76}
+\contentsline {table}{\numberline {5.12}{\ignorespaces Performance of URP Department\relax }}{52}{table.caption.79}
+\contentsline {table}{\numberline {5.13}{\ignorespaces Performance of ARCH Department\relax }}{53}{table.caption.82}
+\contentsline {table}{\numberline {5.14}{\ignorespaces Performance of WRE Department\relax }}{54}{table.caption.85}
+\contentsline {table}{\numberline {5.15}{\ignorespaces Impact of Gender on Performance\relax }}{55}{table.caption.90}
+\contentsline {table}{\numberline {5.16}{\ignorespaces Impact of Hall Status on Performance\relax }}{56}{table.caption.92}
+\contentsline {table}{\numberline {5.17}{\ignorespaces Impact of Hall Status on Performance\relax }}{57}{table.caption.94}
+\contentsline {table}{\numberline {5.18}{\ignorespaces Impact of Class Test Marks on Performance\relax }}{58}{table.caption.96}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {5.1}{\ignorespaces Training Data Sample\relax }}{24}{table.caption.83}
-\contentsline {table}{\numberline {5.2}{\ignorespaces Training Data Sample\relax }}{27}{table.caption.89}
-\contentsline {table}{\numberline {5.3}{\ignorespaces Final Output Sample\relax }}{28}{table.caption.90}
-\contentsline {table}{\numberline {5.4}{\ignorespaces Performance of EEE department\relax }}{28}{table.caption.95}
-\contentsline {table}{\numberline {5.5}{\ignorespaces Performance of CSE Department\relax }}{29}{table.caption.98}
-\contentsline {table}{\numberline {5.6}{\ignorespaces Performance of IPE Department\relax }}{30}{table.caption.101}
-\contentsline {table}{\numberline {5.7}{\ignorespaces Performance of ME Department\relax }}{31}{table.caption.104}
-\contentsline {table}{\numberline {5.8}{\ignorespaces Performance of CE Department\relax }}{32}{table.caption.107}
-\contentsline {table}{\numberline {5.9}{\ignorespaces Performance of MME Department\relax }}{32}{table.caption.110}
-\contentsline {table}{\numberline {5.10}{\ignorespaces Performance of CHE Department\relax }}{33}{table.caption.113}
-\contentsline {table}{\numberline {5.11}{\ignorespaces Performance of NAME Department\relax }}{34}{table.caption.116}
-\contentsline {table}{\numberline {5.12}{\ignorespaces Performance of URP Department\relax }}{35}{table.caption.119}
-\contentsline {table}{\numberline {5.13}{\ignorespaces Performance of ARCH Department\relax }}{36}{table.caption.122}
-\contentsline {table}{\numberline {5.14}{\ignorespaces Performance of WRE Department\relax }}{37}{table.caption.125}
-\contentsline {table}{\numberline {5.15}{\ignorespaces Impact of Gender on Performance\relax }}{38}{table.caption.131}
-\contentsline {table}{\numberline {5.16}{\ignorespaces Impact of Hall Status on Performance\relax }}{39}{table.caption.134}
-\contentsline {table}{\numberline {5.17}{\ignorespaces Impact of Hall Status on Performance\relax }}{40}{table.caption.137}
-\contentsline {table}{\numberline {5.18}{\ignorespaces Impact of Class Test Marks on Performance\relax }}{41}{table.caption.140}
 \addvspace {10\p@ }
 \addvspace {10\p@ }

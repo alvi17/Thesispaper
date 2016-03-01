@@ -40,7 +40,7 @@ A sample of the training data set looks like Table \ref{tab:Training Data}.
 \centering
 \begin{tabular}{l l l l l l l l l}
 \toprule
-\tabhead{SID} & \tabhead{Department} & \tabhead{Hall}& \tabhead{Gender}& \tabhead{Attendance}& \tabhead{ClassTest} & \tabhead{Cgpa}& \tabhead{Credit}& \tabhead{Status}\\
+\tabhead{SID} & \tabhead{Dept} & \tabhead{Hall}& \tabhead{Gender}& \tabhead{Attendance}& \tabhead{CT} & \tabhead{Cgpa}& \tabhead{Credit}& \tabhead{Status}\\
 \midrule
 4650  & 2& 0 &1	& 1 &	0.83 & 	3.72 & 1 &	excellent\\
 4755 & 9 & 1 & 1 & 0.82	& 0.71 &	3.39 &	1 &	poor \\
@@ -65,20 +65,19 @@ A hypothetical decision tree can be derived from the training data as depicted i
 
 \section{Algorithm}
 The algorithm used is ID3 Algorithm. So, Information gain as described in Section \ref{infogain} is used as splitting criterion. \\
-We used the structure of the algorithm described in Algorithm \ref{generatedecisiontree} in our implementation. We used Java programming language for implementation. \\
-The pseudocode for the final implementation of the algorithm is shown in Algorithm \ref{generatedecisiontreeforbiisdata}.
-
+We used the structure of the algorithm described in Algorithm 1 in our implementation. We used Java programming language for implementation. \\
+The pseudocode for the final implementation of the algorithm is shown in Algorithm 2.
 
 {\SetAlgoNoLine
-\begin{algorithm}[H]
+\begin{algorithm}[!ht]
 
 \label{generatedecisiontreeforbiisdata}
 \SetKwInOut{Input}{Input}
 \SetKwInOut{Output}{Output}
 
 \Input{ \begin{itemize}
-\item Data partition, D, which is a set of training tuples and their associated class labels;
-\item $attribute\_list(SID,Department,Hall,Attendance,ClassTest,Cgpa,CreditComplete)$, the set of candidate attributes\;
+\item Data partition, D, which is a set of training tuples and their associated class labels \;
+\item $attribute\_list(SID,Dept,Hall,Attendance,CT,Cgpa,CrComplete)$, the set of candidate attributes\;
 \item $Attribute\_selection\_method : Information gain with majority voting$.
 \end{itemize}}
 \Output{A decision tree.}
@@ -126,12 +125,12 @@ The pseudocode for the final implementation of the algorithm is shown in Algorit
 \section{Result of Classification}
  
 \begin{table}
-\caption{Training Data Sample}
+\caption{Test Data Sample}
 \label{tab:Test Data Sample}
 \centering
 \begin{tabular}{|c| c| c| c| c| c|c | c|c }
 \toprule
-\tabhead{SID} & \tabhead{Department} & \tabhead{Hall}& \tabhead{Gender}& \tabhead{Attendance}& \tabhead{ClassTest} & \tabhead{Cgpa}& \tabhead{Credit} \\
+\tabhead{SID} & \tabhead{Dept} & \tabhead{Hall}& \tabhead{Gender}& \tabhead{Attendance}& \tabhead{CT} & \tabhead{Cgpa}& \tabhead{Credit} \\
 \midrule
 4487	&9&	1&	1	&0.98&	0.77&	3.64&	1\\
 4488	&9&	0&	0&	0.72&	0.68&	3.18&	1\\
@@ -161,7 +160,7 @@ Test data set before applying algorithm looks like Table ~\ref{tab:Test Data Sam
 \centering
 \begin{tabular}{|c| c| c| c| c| c|c | c|c|c }
 \toprule
-\tabhead{SID} & \tabhead{Department} & \tabhead{Hall}& \tabhead{Gender}& \tabhead{Attendance}& \tabhead{ClassTest} & \tabhead{Cgpa}& \tabhead{Credit} & \tabhead{Status} \\
+\tabhead{SID} & \tabhead{Dept} & \tabhead{Hall}& \tabhead{Gender}& \tabhead{Attendance}& \tabhead{CT} & \tabhead{Cgpa}& \tabhead{Credit} & \tabhead{Status} \\
 \midrule
 4487	& 9 &	1 &	1	& 0.98 &	0.7 7&	3.64 &	1 & good\\
 4488	& 9 &	0 &	0 &	0.72 &	0.68 &	3.18 &	1 & moderate\\
@@ -182,7 +181,7 @@ Test data set before applying algorithm looks like Table ~\ref{tab:Test Data Sam
 \end{tabular}
 \end{table}
 
-After applying algortihm as desribed in Algorithm \ref{generatedecisiontreeforbiisdata} the results as shown in Table \ref{tab:Final Result} are found.
+After applying algortihm as desribed in Algorithm 2 the results as shown in Table \ref{tab:Final Result} are found.
 
 %----------------------------------------------------------------------------------------
 
@@ -687,7 +686,7 @@ Our classifier also agrees with this fact. About 99\% of the students getting cg
  
  
 \subsection{Impact of Credit Completion}
-Completing all the required credit within the regular period of time plays a vital role in overall academic performance. Figure \ref{fig:Impact of Credit completion on Performance} shows the result.
+Completing all the required credit within the regular period of time plays a vital role in overall academic performance. Figure \ref{fig:Impact of Credit completion on Performance} shows the result.\\ \\More statistical analysis results are discussed in Appendix \ref{Appendix B}.
 
 \begin{figure}
    \centering
@@ -698,5 +697,4 @@ Completing all the required credit within the regular period of time plays a vit
 \end{figure}
 
  
-
  

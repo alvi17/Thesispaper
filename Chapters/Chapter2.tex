@@ -13,7 +13,7 @@
 %----------------------------------------------------------------------------------------
 
 \section{Knowledge Discovery Steps}
-Knowledge Discovery is the non-trivial process of identifying valid, novel, potentially useful, and ultimately understandable patterns in data \\\cite{knowledge discovery}. With the emphasis on collecting data increasing around the world, there is an urgent need for a new generation of different techniques, methods and algorithms to assist researchers, analysts, decision makers and managers in extracting useful patterns from the rapidly growing volumes of data. These techniques and tools are the subject of the emerging field of knowledge discovery in databases .Knowledge Discovery and Data Mining  is an interdisciplinary area focusing upon methodologies for extracting useful knowledge from data.Knowledge Discovery and Data Mining is an interdisciplinary area focusing upon methodologies for extracting useful knowledge from data.According to \cite{IBM}, Though Knowledge Discovery is used synonymously to represent data mining, both these are actually different. Some preprocessing steps before data mining and post processing steps after data mining are to be completed to transform the raw data as useful knowledge. \newline
+Knowledge Discovery is the non-trivial process of identifying valid, novel, potentially useful, and ultimately understandable patterns in data \\\cite{knowledge discovery}. With the emphasis on collecting data increasing around the world, there is an urgent need for a new generation of different techniques, methods and algorithms to assist researchers, analysts, decision makers and managers in extracting useful patterns from the rapidly growing volumes of data. These techniques and tools are the subject of the emerging field of knowledge discovery in databases. Knowledge Discovery and Data Mining  is an interdisciplinary area focusing upon methodologies for extracting useful knowledge from data.Knowledge Discovery and Data Mining is an interdisciplinary area focusing upon methodologies for extracting useful knowledge from data. According to \cite{IBM}, Though Knowledge Discovery is used synonymously to represent data mining, both these are actually different. Some preprocessing steps before data mining and post processing steps after data mining are to be completed to transform the raw data as useful knowledge. \newline
 Knowledge Discovery is an iterative process that transforms raw data into useful information. Different steps of Knowledge Discovery in Databases are discussed in \cite{kddsteps}.
 
 \begin{figure}
@@ -147,7 +147,7 @@ data is an advanced topic. The methods involved are extensions of the basic tech
 Data preprocessing describes any type of processing performed on raw data to prepare it for another processing procedure. Commonly used as a preliminary data mining practice, data preprocessing transforms the data into a format that will be more easily and effectively processed for the purpose of the user. \newline
 Raw data is highly susceptible to noise,missing values,and inconsistency.The quality of data affects the data mining results.In order to help improve the quality of the data and,consequently, of the mining results raw data is preprocessed so as to improve the efficiency and ease of the mining process.Data preprocessing is one of the most critical steps in a data mining process which deals with the preparation and transformation of the initial dataset.Data preprocessing methods are divided into following categories
 \subsection{Data Cleaning}
-Data that is to be analyzed by data mining techniques can be incomplete(lacking attribute values or certain attribute of interest,or containing only aggregate data),noisy(containing errors,or outlier values which deviate from the expected),and inconsistent(e.g., containing discrepancies in the department codes used to categorize items). \cite{data cleaning}Incomplete,noisy and inconsistent data are commonplace properties of large,real-world databases and data warehouses.\\Therefore,a useful preprocessing step is to run data through some data cleaning routines.
+Data that is to be analyzed by data mining techniques can be incomplete(lacking attribute values or certain attribute of interest,or containing only aggregate data),noisy(containing errors,or outlier values which deviate from the expected), and inconsistent(e.g., containing discrepancies in the department codes used to categorize items). \cite{data cleaning}Incomplete,noisy and inconsistent data are commonplace properties of large,real-world databases and data warehouses.\\Therefore,a useful preprocessing step is to run data through some data cleaning routines.
 \textit{Missing Values:}
 If there are tuples that have no recorded value for several attributes,then missing value can be filled  in for attributes by the methods below
 \begin{enumerate}
@@ -171,7 +171,7 @@ numbers preserving natural order to allow comparisons, \\e.g.
    B \vspace{10 mm} -\textgreater  \vspace{10 mm} 3
  
 \end{itemize}
-
+\newpage
 \subsection{Data Integration}
 Data analysis task can involve data integration,which involves combining data residing in different sources and providing users with a unified view of these data.\cite{Data Integration} In case there are tuples which represent a single instance,those tuples can be combined using various methods.In this case there can be problems like attributes not matching or attributes missing.using various methods,these problem can be overcome and data integration is implemented.
 
@@ -211,7 +211,54 @@ There are many methods for data normalization. Common methods are
 \item Normalization by Decimal scaling
 \end{itemize} 
 
+\subsection{Data Discretization}
+\textbf{Data discretization} transforms numeric data by mapping values to interval or concept labels. Such
+methods can be used to automatically generate concept hierarchies for the data, which allows for mining at
+multiple levels of granularity. Discretization techniques include binning, histogram analysis, cluster analysis,
+decision tree analysis, and correlation analysis. For nominal data,\textbf{ concept hierarchies} may be generated
+based on schema definitions as well as the number of distinct values per attribute.
 
+\subsubsection{Discretization by Binning}
+Binning is a top-down splitting technique based on a specified number of bins.For example, attribute values can be discretized by applying equal-width or equal-frequency binning, and then replacing each bin value by the bin mean or
+median, as in smoothing by bin means or smoothing by bin medians, respectively. These techniques can be
+applied recursively to the resulting partitions to generate concept hierarchies.\\
+Binning does not use class information and is therefore an unsupervised discretization technique. It is sensitive
+to the user-specified number of bins, as well as the presence of outliers.
+
+
+\subsubsection{Discretization by Histogram Analysis}
+Like binning, histogram analysis is an unsupervised discretization technique because it does not use class
+information.A histogram partitions the values of an attribute, A, into disjoint ranges called buckets or bins.
+Various partitioning rules can be used to define histograms. In an equal-width histogram, for
+example, the values are partitioned into equal-size partitions or ranges (e.g., earlier in Figure 3.8 for price,
+where each bucket has a width of \$10). With an equal-frequency histogram, the values are partitioned so that,
+ideally, each partition contains the same number of data tuples. The histogram analysis algorithm can be
+applied recursively to each partition in order to automatically generate a multilevel concept hierarchy, with the
+procedure terminating once a prespecified number of concept levels has been reached. A minimum interval size
+can also be used per level to control the recursive procedure. This specifies the minimum width of a partition,
+or the minimum number of values for each partition at each level. Histograms can also be partitioned based on
+cluster analysis of the data distribution, as described next.
+
+
+\subsubsection{Discretization by Cluster, Decision Tree, and Correlation Analyses}
+
+Clustering, decision tree analysis, and correlation analysis can be used for data discretization. We briefly study
+each of these approaches.\\
+Cluster analysis is a popular data discretization method. A clustering algorithm can be applied to discretize a
+numeric attribute, A, by partitioning the values of A into clusters or groups. 
+A into consideration, as well as the closeness of data points, and therefore is able to produce high-quality
+discretization results.\\
+Clustering can be used to generate a concept hierarchy for A by following either a top-down splitting strategy
+or a bottom-up merging strategy, where each cluster forms a node of the concept hierarchy. In the former, each
+initial cluster or partition may be further decomposed into several subclusters, forming a lower level of the
+hierarchy. In the latter, clusters are formed by repeatedly grouping neighboring clusters in order to form higherlevel concepts. \\
+
+Measures of correlation can be used for discretization. ChiMerge is a$\chi^{2}$-based discretization method. The
+discretization methods that we have studied up to this point have all employed a top-down, splitting strategy.
+This contrasts with ChiMerge, which employs a bottom-up approach by finding the best neighboring intervals
+and then merging them to form larger intervals, recursively. As with decision tree analysis, ChiMerge is
+supervised in that it uses class information. The basic notion is that for accurate discretization, the relative class frequencies should be fairly consistent within an interval. Therefore, if two adjacent intervals have a very
+similar distribution of classes, then the intervals can be merged. Otherwise, they should remain separate.
 %----------------------------------------------------------------------------------------
 \section{Classification}
 \subsection{Basic Concept}
@@ -238,7 +285,7 @@ labels for given data).
 In the first step, a classifier is built describing a predetermined set of data classes or concepts. This is the
 learning step (or training phase), where a classification algorithm builds the classifier by analyzing or
 "learning from" a training set made up of database tuples and their associated class labels. A tuple, $ X$, is
-represented by an n-dimensional attribute vector, $ X= (x_{1},x_{2},....,x_{n})$ depicting n measurements made on the tuple from n database attributes, respectively,$A_{1},A_{2},....A_{n} $.\footnote{\label{first}Each attribute represents a "feature" of $X$. Hence, the pattern recognition literature uses the term feature vector rather than
+represented by an n-dimensional attribute vector, $ X= (x_{1},x_{2},....,x_{n})$ depicting n measurements made on the tuple from n database attributes, respectively, $A_{1},A_{2},....A_{n} $. \footnote{\label{first}Each attribute represents a "feature" of $X$. Hence, the pattern recognition literature uses the term feature vector rather than
 attribute vector. } 
 Each tuple, $X$, is assumed to belong to a predefined class as determined by another database attribute called the class label attribute. The class label
 attribute is discrete-valued and unordered. It is categorical (or nominal) in that each value serves as a category
@@ -281,7 +328,7 @@ The benefits of having a decision tree are
 A machine researcher named J. Ross Quinlan in 1980 developed a decision tree algorithm known as ID3 (Iterative Dichotomiser). Later, he presented C4.5, which was the successor of ID3. ID3 and C4.5 adopt a greedy approach. In this algorithm, there is no backtracking; the trees are constructed in a top-down recursive divide-and-conquer manner.
 
 {\SetAlgoNoLine
-\begin{algorithm}[H]
+\begin{algorithm}[!ht]
 
 \label{generatedecisiontree}
 \SetKwInOut{Input}{Input}
@@ -324,7 +371,8 @@ A machine researcher named J. Ross Quinlan in 1980 developed a decision tree alg
 \end{algorithmic}
 \end{algorithm}}
 
-Algorithm ~\ref{generatedecisiontree} is the general approach to build a decision tree.
+
+Algorithm 1 is the general approach to build a decision tree as described in \cite{Data Mining Concepts and Techniques}.
 
 \subsection{Attributes Selection Measures}
 \paragraph{}
@@ -403,15 +451,15 @@ A is $$\delta{}Gini(A)=Gini(D)-Gini_A(D).$$
 
 \subsubsection{Other Attribute Selection Measures}
 
-Many other attribute selection measures have been proposed. CHAID, a decision tree algorithm that is popular
-in marketing, uses an attribute selection measure that is based on the statistical $\chi^{2} $ test for independence. Other measures include C-SEP (which performs better than information gain and the Gini index in certain cases) and
-G-statistic (an information theoretic measure that is a close approximation to $\chi^{2} $ distribution).\\
+Many other attribute selection measures have been proposed.\textbf{ CHAID}, a decision tree algorithm that is popular
+in marketing, uses an attribute selection measure that is based on the statistical $\chi^{2} $ test for independence. Other measures include \textbf{C-SEP} (which performs better than information gain and the Gini index in certain cases) and G-statistic (an information theoretic measure that is a close approximation to $\chi^{2} $ distribution).
+\\
 Attribute selection measures based on the Minimum Description Length (MDL) principle have the least bias
-toward multivalued attributes. MDL-based measures use encoding techniques to define the "best”" decision tree
+toward multivalued attributes. MDL-based measures use encoding techniques to define the "best" decision tree
 as the one that requires the fewest number of bits to both (1) encode the tree and (2) encode the exceptions to
 the tree(i.e., cases that are not correctly classified by the tree). Its main idea is that the simplest of solutions is preferred. \\
 Other attribute selection measures consider multivariate splits (i.e., where the partitioning of tuples is based
 on a combination of attributes, rather than on a single attribute). The CART system, for example, can find
 multivariate splits based on a linear combination of attributes. Multivariate splits are a form of attribute (or
-feature) construction, where new attributes are created based on the existing ones.
+feature) construction, where new attributes are created based on the existing ones.\cite{Data Mining Concepts and Techniques}
 

@@ -1,0 +1,146 @@
+% Chapter 1
+
+\documentclass[a4paper,12pt]{book}
+\usepackage{hyperref}
+\usepackage{array}
+\usepackage{floatrow}
+\DeclareFloatFont{tiny}{\tiny}
+
+\begin{document}
+\chapter{Analysis of BIIS Data} % Main chapter title
+
+\label{Analysis of BIIS Data} % For referencing the chapter elsewhere, use \ref{Chapter1} 
+
+%----------------------------------------------------------------------------------------
+
+% Define some commands to keep the formatting separated from the content 
+
+%----------------------------------------------------------------------------------------
+
+\section{Scope}
+BUET offers educational facilities for more than 5000 students in an academic session.
+These students are under  departments.Number of students in a respective department is different according to the department facility.Department of Electrical \& Electronic Engineering, Department of Civil Engineering,Department of Mechanical Engineering can afford 195 students per batch.Department of Computer Science \& Engineering has 120 students.Department of Architecture afford 55 students,Department of Water Resource Engineering,Department of Materials \& Metallurgical Engineering,Department of Urban \& Regional Planning and Department of Industrial \& Production Engineering hold 30 students each.Department of Naval Architecture \& Marine Engineering and Department of Chemical Engineering has 60 students each \cite{buet}.These numbers have been changed throughout year by year but 
+it represent the period on which this research has been more focused.
+In this research BIIS data of 10 already graduated batches have been used which represents almost 10 thousand students.Academic performance of no current student has been brought under this research. 
+
+%----------------------------------------------------------------------------------------
+
+\section{Database Structure}
+There are 8 parts of BIIS data and each data sheet has 65,000 tuples.Each tuple represents the performance of a student in a particular course.The attributes of the tuple are described below
+\begin{itemize}
+\item Serial : It is the serial number of a particular student.It is not actually the student id,but it's a unique constraint and primary key of the database table.
+\item Department : Respective department of the student.
+\item HallStatus : Indicates whether the student is hall resident or attached.
+\item District : Home district of the student.
+\item Thana : Thana of the student.
+\item Gender : Gender of the student.
+\item PlaceOfBirth : Birth place of the student.
+\item StartingOfAcademicYear : Indicates on which academic year the student has started undergrad.
+\item AdmissionDate : Admission day at BUET.
+\item CourseName : The particular course taken by student.
+\item LetterGrade : Lettergrade of the respective course. 
+\item ClassAttendanceMark : It represents the attendance mark of the student in respective course.The attendance mark is allocated 10\% of total course mark.E.g.,For 3 credit courses,it's marked out of 30,for 4 credit course it's marked out of 40. 
+\item ClassTestMark : Class test mark is allocated 20\% of the total number of a course.E.g.,For 3 credit course,highest ct mark is 60,for 4 credit course it's 80.
+\item PartAMark :  For theory courses the term final examination holds 70\% weight of total course.This huge exam is divided into 2 parts. Generally internal examiner handles Part A.E.g., For 3 credit course,part A holds 105 marks,for 4 credit courses it's 140.
+\item PartBMark : Same as part A,generally external examiner handles part B.
+\item TotalNumber : Total mark obtained by a student in a particular course..
+\item LevelName : The level respective course has been taken.
+\item TermName : The term respective course has been taken.
+\item GPA : GPA of student in particular term.
+\item CGPA : CGPA upto the respective term.
+\item TermCount : Term count of the student.
+\item CreditHourEarned : Credit hour earned by the student in the respective term.
+\item TotalCreditHourCompleted : Total credit hour earned by the student upto respective term.
+\end{itemize}
+
+
+
+\section{Problems in Existing Structure}
+The universal database holds raw academic data of the students.There are plenty of disturbance in this database.They are described below :
+\begin{itemize}
+\item The first and most important problem is, all the eight data sheets don't have same attributes among them.For example, Sheet 1 doesn't have a \textit{CourseName} column whereas Sheet 2 has one.There are many more incidents where attributes don't match.
+\item One student enrolls into a number of courses in academic career which can vary from 65 to 80.So, there are multiple tuple for one student which is not suitable for classification.Determining status from multiple tuples is very difficult.
+\begin {table}[H]
+\caption {Multiple entries for single student in the Universal Database} \label{tab:title} 
+\begin{center}
+\begin{tabular}{ | m{2cm} | m{2cm}| m{0.5cm} | m{3cm} | m{2cm} | m{0.5cm} | } 
+\hline
+Serial & Department & ... & CourseName & LetterGrade & ... \\ 
+\hline
+2 & CE & ... & PHY143 & A- & ... \\ 
+\hline
+2 & CE & ... & MATH141 & B+ & ... \\ 
+\hline
+... & ... & ... & ... & ... & ... \\ 
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+\item The database is in a format of full outer join.So, there are plenty of blank attributes.For example, in sessional courses,there is no Part A or Part B.So, \textit{PartAMark} or \textit{PartBMark} remains void for sessional courses.Besides,there are also some special course for which maximum attributes remain blank. 
+\begin {table}[H]
+\caption {Blank attributes in Database} \label{tab:title} 
+\begin{center}
+\begin{tabular}{ | m{1cm} | m{2cm}| m{0.5cm}| m{2cm} | m{2cm} | m{2cm} |  m{0.5cm} | } 
+\hline
+Serial & Department & ... & CourseName & PartAMark & PartBMark & ... \\ 
+\hline
+65 & CSE & ... & CSE100 & - & - & ... \\ 
+\hline
+65 & CSE & ... & MATH141 & 93 & 112 & ... \\ 
+\hline
+... & ... & ... & ... & ... & ... & ... \\ 
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+\item There are some attributes,for which there is no value was really inserted ever.In some datasheets \textit{PlaceOfBirth,District,Thana} are blank.
+\item In some data sheets, \textit{CGPA \& GPA} have rounded value.But,for accurate results,it is very important to get the accurate \textit{CGPA \& GPA} upto two floating points at least.
+\begin {table}[H]
+\caption {Rounded up value of CGPA and GPA} \label{tab:title} 
+\begin{center}
+\begin{tabular}{ | m{1cm} |  m{2cm} | m{0.5cm}| m{2cm} | m{2cm} | m{0.5cm} | } 
+\hline
+Serial & Department & ... & GPA & CGPA  & ... \\ 
+\hline
+4478 & NAME & ... & 4 & 3 & ... \\ 
+\hline
+4478 & NAME & ... & 3 & 3 & ... \\ 
+\hline
+... & ... & ... & ... & ... & ... \\ 
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+\item There is no \textit{CourseCredit} attribute in the database.But for proper reasoning,\textit{CourseCredit} is very important.
+\item Some attributes like \textit{TotalCreditHourCompleted,AttendanceMarks,ClassTestMark} don't have the same range of value for all the tuples.So, any reasoning from these values is very difficult.
+\begin {table}[H]
+\caption {Different range of values} \label{tab:title} 
+\begin{center}
+\begin{tabular}{ | m{1cm} | m{2cm}| m{0.5cm}| m{2cm} | m{2cm} | m{2cm} |  m{0.5cm} | } 
+\hline
+Serial & Department & ... & Attendance\newline Mark & ClassTest\newline Mark & Total\newline CreditHour\newline Completed & ... \\ 
+\hline
+65 & CSE & ... & 27 & 44 & 160 & ... \\ 
+\hline
+120 & ARCH & ... & 40 & 71 & 190 & ... \\ 
+\hline
+... & ... & ... & ... & ... & ... & ... \\ 
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+\item There are many confusing attributes like \textit{TermCount,AdmissionDate} which don't actually make sense.
+\item Reasoning for Theory and Sessional courses are entirely different,but this database don't indicate whether a course is Theory course or not.
+
+
+
+\end{itemize}
+\begin{thebibliography}{9}
+\bibitem{buet}
+Bangladesh University of Engineering and Technology,General Information on:
+\url{http://www.buet.ac.bd} 
+\end{thebibliography}
+
+\end{document}
+\end{document}
+

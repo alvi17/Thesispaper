@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.16)  25 FEB 2016 12:12
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2016.2.16)  29 FEB 2016 21:12
 entering extended mode
 **main.tex
 (C:\Users\Alvi17\Documents\ThesisPaper\main.tex
@@ -552,22 +552,22 @@ Package scrlayer-scrpage Info: auto-selection of `pagestyleset=standard'.
 .................................................
 . LaTeX info: "xparse/define-environment"
 . 
-. Defining environment 'abbreviations' with sig. ' m ' on line 333.
+. Defining environment 'abbreviations' with sig. ' m ' on line 329.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-environment"
 . 
-. Defining environment 'constants' with sig. ' m ' on line 351.
+. Defining environment 'constants' with sig. ' m ' on line 347.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-environment"
 . 
-. Defining environment 'symbols' with sig. ' m ' on line 369.
+. Defining environment 'symbols' with sig. ' m ' on line 365.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-environment"
 . 
-. Defining environment 'acknowledgements' with sig. '' on line 387.
+. Defining environment 'acknowledgements' with sig. '' on line 383.
 .................................................
 ) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\inputenc.sty"
 Package: inputenc 2008/03/30 v1.1d Input encoding file
@@ -1064,213 +1064,14 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\biblatex\biblatex.sty"
-Package: biblatex 2015/12/22 v3.2 programmable bibliographies (PK/JW/AB)
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\biblatex\biblatex1.sty"
-Package: biblatex1 2015/12/22 v3.2 programmable bibliographies (bibtex) (PK/JW/
-AB)
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\logreq\logreq.sty"
-Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count183
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\logreq\logreq.def"
-File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
-))
-\c@tabx@nest=\count184
-\c@listtotal=\count185
-\c@listcount=\count186
-\c@liststart=\count187
-\c@liststop=\count188
-\c@citecount=\count189
-\c@citetotal=\count190
-\c@multicitecount=\count191
-\c@multicitetotal=\count192
-\c@instcount=\count193
-\c@maxnames=\count194
-\c@minnames=\count195
-\c@maxitems=\count196
-\c@minitems=\count197
-\c@citecounter=\count198
-\c@savedcitecounter=\count199
-\c@uniquelist=\count200
-\c@uniquename=\count201
-Normal \count register pool exhausted, switching to extended pool.
-\c@refsection=\count277
-\c@refsegment=\count278
-\c@maxextrayear=\count279
-\c@maxextraalpha=\count280
-\c@abbrvpenalty=\count281
-\c@highnamepenalty=\count282
-\c@lownamepenalty=\count283
-\c@maxparens=\count284
-\c@parenlevel=\count285
-\blx@tempcnta=\count286
-\blx@tempcntb=\count287
-\blx@tempcntc=\count288
-\blx@maxsection=\count289
-\blx@maxsegment=\count290
-\blx@notetype=\count291
-\blx@parenlevel@text=\count292
-\blx@parenlevel@foot=\count293
-\labelnumberwidth=\skip85
-\labelalphawidth=\skip86
-\shorthandwidth=\skip87
-\biblabelsep=\skip88
-\bibitemsep=\skip89
-\bibnamesep=\skip90
-\bibinitsep=\skip91
-\bibparsep=\skip92
-\bibhang=\skip93
-\blx@auxin=\read2
-\blx@auxout=\write3
-\c@mincomprange=\count294
-\c@maxcomprange=\count295
-\c@mincompwidth=\count296
-\c@labelname=\count297
-\c@savedlabelname=\count298
-\c@author=\count299
-\c@savedauthor=\count300
-\c@shortauthor=\count301
-\c@savedshortauthor=\count302
-\c@editor=\count303
-\c@savededitor=\count304
-\c@editora=\count305
-\c@savededitora=\count306
-\c@editorb=\count307
-\c@savededitorb=\count308
-\c@editorc=\count309
-\c@savededitorc=\count310
-\c@shorteditor=\count311
-\c@savedshorteditor=\count312
-\c@bookauthor=\count313
-\c@savedbookauthor=\count314
-\c@translator=\count315
-\c@savedtranslator=\count316
-\c@annotator=\count317
-\c@savedannotator=\count318
-\c@commentator=\count319
-\c@savedcommentator=\count320
-\c@introduction=\count321
-\c@savedintroduction=\count322
-\c@foreword=\count323
-\c@savedforeword=\count324
-\c@afterword=\count325
-\c@savedafterword=\count326
-\c@holder=\count327
-\c@savedholder=\count328
-\c@namea=\count329
-\c@savednamea=\count330
-\c@nameb=\count331
-\c@savednameb=\count332
-\c@namec=\count333
-\c@savednamec=\count334
-\c@institution=\count335
-\c@savedinstitution=\count336
-\c@language=\count337
-\c@savedlanguage=\count338
-\c@location=\count339
-\c@savedlocation=\count340
-\c@organization=\count341
-\c@savedorganization=\count342
-\c@origlocation=\count343
-\c@savedoriglocation=\count344
-\c@origpublisher=\count345
-\c@savedorigpublisher=\count346
-\c@pageref=\count347
-\c@savedpageref=\count348
-\c@publisher=\count349
-\c@savedpublisher=\count350
-\c@lista=\count351
-\c@savedlista=\count352
-\c@listb=\count353
-\c@savedlistb=\count354
-\c@listc=\count355
-\c@savedlistc=\count356
-\c@listd=\count357
-\c@savedlistd=\count358
-\c@liste=\count359
-\c@savedliste=\count360
-\c@listf=\count361
-\c@savedlistf=\count362
-Package biblatex Info: Trying to load compatibility code...
-Package biblatex Info: ... file 'blx-compat.def' found.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\biblatex\blx-compat.def"
-File: blx-compat.def 2015/12/22 v3.2 biblatex compatibility (PK/JW/AB)
-)
-Package biblatex Info: Trying to load generic definitions...
-Package biblatex Info: ... file 'biblatex.def' found.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\biblatex\biblatex.def"
-File: biblatex.def 
-\c@textcitecount=\count363
-\c@textcitetotal=\count364
-\c@textcitemaxnames=\count365
-\c@biburlnumpenalty=\count366
-\c@biburlucpenalty=\count367
-\c@biburllcpenalty=\count368
-\c@smartand=\count369
-)
-Package biblatex Info: Trying to load natbib compatibility...
-Package biblatex Info: ... file 'blx-natbib.def' found.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\biblatex\blx-natbib.def"
-File: blx-natbib.def 2015/12/22 v3.2 biblatex compatibility (PK/JW/AB)
-)
-Package biblatex Info: Trying to load bibliography style 'authoryear'...
-Package biblatex Info: ... file 'authoryear.bbx' found.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\biblatex\bbx\authoryear.bbx"
-File: authoryear.bbx 2015/12/22 v3.2 biblatex bibliography style (PK/JW/AB)
-Package biblatex Info: Trying to load bibliography style 'standard'...
-Package biblatex Info: ... file 'standard.bbx' found.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\biblatex\bbx\standard.bbx"
-File: standard.bbx 2015/12/22 v3.2 biblatex bibliography style (PK/JW/AB)
-\c@bbx:relatedcount=\count370
-\c@bbx:relatedtotal=\count371
-))
-Package biblatex Info: Trying to load citation style 'authoryear'...
-Package biblatex Info: ... file 'authoryear.cbx' found.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\biblatex\cbx\authoryear.cbx"
-File: authoryear.cbx 2015/12/22 v3.2 biblatex citation style (PK/JW/AB)
-Package biblatex Info: Redefining '\cite'.
-Package biblatex Info: Redefining '\parencite'.
-Package biblatex Info: Redefining '\footcite'.
-Package biblatex Info: Redefining '\footcitetext'.
-Package biblatex Info: Redefining '\smartcite'.
-Package biblatex Info: Redefining '\textcite'.
-Package biblatex Info: Redefining '\textcites'.
-)
-Package biblatex Info: Trying to load configuration file...
-Package biblatex Info: ... file 'biblatex.cfg' found.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\biblatex\biblatex.cfg"
-File: biblatex.cfg 
-)))
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 29.
-Package hyperref Info: Option `hypertexnames' set `false' on input line 29.
-Package hyperref Info: Option `colorlinks' set `true' on input line 29.
-Package hyperref Info: Option `unicode' set `true' on input line 29.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\puenc.def"
-File: puenc.def 2012/11/06 v6.83m Hyperref: PDF Unicode definition (HO)
-Now handling font encoding PU ...
-... no UTF-8 mapping file for font encoding PU
-)
-Package hyperref Info: Option `breaklinks' set `true' on input line 29.
-
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\csquotes\csquotes.sty"
 Package: csquotes 2016/01/31 v5.1g context-sensitive quotations (JAW)
-\csq@reset=\count372
-\csq@gtype=\count373
-\csq@glevel=\count374
-\csq@qlevel=\count375
-\csq@maxlvl=\count376
-\csq@tshold=\count377
+\csq@reset=\count183
+\csq@gtype=\count184
+\csq@glevel=\count185
+\csq@qlevel=\count186
+\csq@maxlvl=\count187
+\csq@tshold=\count188
 \csq@ltx@everypar=\toks25
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\csquotes\csquotes.def"
@@ -1284,40 +1085,78 @@ File: csquotes.cfg
 )
 Package csquotes Info: Enabling multilingual quotes.
 )
-Package biblatex Info: Trying to load language 'english'...
-Package biblatex Info: ... file 'english.lbx' found.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\biblatex\lbx\english.lbx"
-File: english.lbx 2015/12/22 v3.2 biblatex localization (PK/JW/AB)
-)
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 70.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 70.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 70.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 73.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 73.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 73.
+
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
-
 (C:\Users\Alvi17\Documents\ThesisPaper\main.aux
 (C:\Users\Alvi17\Documents\ThesisPaper\Chapters/Chapter1.aux)
 (C:\Users\Alvi17\Documents\ThesisPaper\Chapters/Chapter2.aux)
-(C:\Users\Alvi17\Documents\ThesisPaper\Chapters/Chapter3.aux)
-(C:\Users\Alvi17\Documents\ThesisPaper\Chapters/Chapter4.aux)
-(C:\Users\Alvi17\Documents\ThesisPaper\Chapters/Chapter5.aux)
+(C:\Users\Alvi17\Documents\ThesisPaper\Chapters/Chapter3.aux
+
+LaTeX Warning: Label `tab:title' multiply defined.
+
+
+LaTeX Warning: Label `tab:title' multiply defined.
+
+) (C:\Users\Alvi17\Documents\ThesisPaper\Chapters/Chapter4.aux
+
+LaTeX Warning: Label `eq1' multiply defined.
+
+
+LaTeX Warning: Label `tab:title' multiply defined.
+
+
+LaTeX Warning: Label `tab:title' multiply defined.
+
+
+LaTeX Warning: Label `tab:title' multiply defined.
+
+
+LaTeX Warning: Label `tab:title' multiply defined.
+
+) (C:\Users\Alvi17\Documents\ThesisPaper\Chapters/Chapter5.aux)
 (C:\Users\Alvi17\Documents\ThesisPaper\Chapters/Chapter6.aux)
-(C:\Users\Alvi17\Documents\ThesisPaper\Appendices/AppendixA.aux))
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Try loading font information for T1+ppl on input line 70.
+(C:\Users\Alvi17\Documents\ThesisPaper\Appendices/AppendixA.aux)
+(C:\Users\Alvi17\Documents\ThesisPaper\Appendices/AppendixB.aux)
+(C:\Users\Alvi17\Documents\ThesisPaper\Appendices/AppendixC.aux))
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 76.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\t1ppl.fd"
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
@@ -1406,16 +1245,16 @@ Dictionary: translator-basic-dictionary, Language: English
 File: siunitx-abbreviations.cfg 2016/01/19 v2.6p siunitx: Abbreviated units
 ) ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count378
+\scratchcounter=\count189
 \scratchdimen=\dimen199
 \scratchbox=\box62
-\nofMPsegments=\count379
-\nofMParguments=\count380
+\nofMPsegments=\count190
+\nofMParguments=\count191
 \everyMPshowfont=\toks26
-\MPscratchCnt=\count381
+\MPscratchCnt=\count192
 \MPscratchDim=\dimen200
-\MPnumerator=\count382
-\makeMPintoPDFobject=\count383
+\MPnumerator=\count193
+\makeMPintoPDFobject=\count194
 \everyMPtoPDFconversion=\toks27
 )
 Package caption Info: Begin \AtBeginDocument code.
@@ -1430,7 +1269,7 @@ Package caption Info: End \AtBeginDocument code.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * bindingoffset: 56.9055pt
-* modes: includehead includefoot twoside 
+* modes: includehead includefoot 
 * h-part:(L,W,R)=(56.9055pt, 412.56499pt, 71.13188pt)
 * v-part:(T,H,B)=(42.67912pt, 759.6886pt, 42.67912pt)
 * \paperwidth=597.50787pt
@@ -1438,13 +1277,13 @@ Package caption Info: End \AtBeginDocument code.
 * \textwidth=412.56499pt
 * \textheight=689.15318pt
 * \oddsidemargin=41.54102pt
-* \evensidemargin=-1.1381pt
+* \evensidemargin=-15.36449pt
 * \topmargin=-29.59087pt
 * \headheight=20.66162pt
 * \headsep=19.8738pt
 * \topskip=12.0pt
 * \footskip=30.0pt
-* \marginparwidth=98.0pt
+* \marginparwidth=47.0pt
 * \marginparsep=7.0pt
 * \columnsep=10.0pt
 * \skip\footins=10.8pt plus 4.0pt minus 2.0pt
@@ -1452,150 +1291,187 @@ Package caption Info: End \AtBeginDocument code.
 * \voffset=0.0pt
 * \mag=1000
 * \@twocolumnfalse
-* \@twosidetrue
-* \@mparswitchtrue
+* \@twosidefalse
+* \@mparswitchfalse
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package scrlayer Info: Setting magic \footheight to \baselineskip while
-(scrlayer)             \begin{document} on input line 70.
-Package scrbase Info: activating english \authorshipname on input line 70.
-Package scrbase Info: activating english \byname on input line 70.
-Package scrbase Info: activating english \abbrevname on input line 70.
-Package scrbase Info: activating english \constantsname on input line 70.
-Package scrbase Info: activating english \symbolsname on input line 70.
-Package scrbase Info: activating english \acknowledgementname on input line 70.
+(scrlayer)             \begin{document} on input line 76.
+
+Package scrlayer-scrpage Warning: Very small head height detected!
+(scrlayer-scrpage)                Using scrlayer-scrpage the head height
+(scrlayer-scrpage)                should be at least \baselineskip, which is
+(scrlayer-scrpage)                23.99748pt currently.
+(scrlayer-scrpage)                But head height is currently 20.66162pt only.
+
+(scrlayer-scrpage)                You may use
+(scrlayer-scrpage)                geometry option `head=23.99748pt'
+(scrlayer-scrpage)                to avoid this warning.
+
+Package scrbase Info: activating english \authorshipname on input line 76.
+Package scrbase Info: activating english \byname on input line 76.
+Package scrbase Info: activating english \abbrevname on input line 76.
+Package scrbase Info: activating english \constantsname on input line 76.
+Package scrbase Info: activating english \symbolsname on input line 76.
+Package scrbase Info: activating english \acknowledgementname on input line 76.
 
 \AtBeginShipoutBox=\box63
-Package hyperref Info: Link coloring ON on input line 70.
+Package hyperref Info: Link coloring OFF on input line 76.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count384
+\c@section@level=\count195
 )
-LaTeX Info: Redefining \ref on input line 70.
-LaTeX Info: Redefining \pageref on input line 70.
-LaTeX Info: Redefining \nameref on input line 70.
+LaTeX Info: Redefining \ref on input line 76.
+LaTeX Info: Redefining \pageref on input line 76.
+LaTeX Info: Redefining \nameref on input line 76.
 
 (C:\Users\Alvi17\Documents\ThesisPaper\main.out)
 (C:\Users\Alvi17\Documents\ThesisPaper\main.out)
-\@outlinefile=\write4
-Package biblatex Info: Input encoding 'utf8' detected.
-Package biblatex Info: Automatic encoding selection.
-(biblatex)             Assuming data encoding 'utf8'.
+\@outlinefile=\write3
+\c__siunitx_mathsf_int=\count196
+\c__siunitx_mathtt_int=\count197
 
 
-Package biblatex Warning: Data encoding is 'utf8'.
-(biblatex)                Use backend=biber.
+Package scrlayer-scrpage Warning: \headheight to low.
+(scrlayer-scrpage)                At least 23.99747pt needed,
+(scrlayer-scrpage)                but only 20.66162pt found.
+(scrlayer-scrpage)                I'll enlarge \headheight, for further
+(scrlayer-scrpage)                processing, but you should do this yourself,
+(scrlayer-scrpage)                e.g., setting geometry's option
+(scrlayer-scrpage)                `head=23.99747pt'.
+(scrlayer-scrpage)                I'll also decrease \topmargin on input line 7
+8.
 
-Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'main.bbl' found.
-(C:\Users\Alvi17\Documents\ThesisPaper\main.bbl)
-Package biblatex Info: Reference section=0 on input line 70.
-Package biblatex Info: Reference segment=0 on input line 70.
-\c__siunitx_mathsf_int=\count385
-\c__siunitx_mathtt_int=\count386
 
+Overfull \vbox (3.33585pt too high) has occurred while \output is active []
+
+
+[1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+]
 1: section
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 87.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 89.
+<Figures/buet.jpg, id=357, 545.6385pt x 514.92375pt>
+File: Figures/buet.jpg Graphic file (type jpg)
+ <use Figures/buet.jpg>
+Package pdftex.def Info: Figures/buet.jpg used on input line 96.
+(pdftex.def)             Requested size: 85.35571pt x 85.3516pt.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 102.
+
 [1
 
 
-
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2
-
-]
+ <C:/Users/Alvi17/Documents/ThesisPaper/Figures/buet.jpg>]
 --------------------
  Declaration of Authorship
 --------------------
-LaTeX Font Info:    Try loading font information for OMS+ppl on input line 122.
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 135.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omsppl.fd"
 File: omsppl.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 122.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 135.
 
-Underfull \hbox (badness 10000) in paragraph at lines 127--128
+Underfull \hbox (badness 10000) in paragraph at lines 140--141
 
  []
 
 1: section
-[3] [4
+pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.154 \begin{abstract}
+                       [1
 
 ]
 --------------------
  Abstract
 --------------------
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 142.
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--158
+
+ []
+
 1: section
-[5] [6
+[2
 
 ]
 --------------------
  Acknowledgements
 --------------------
 1: section
-[7] [8
+[3
 
 ] (C:\Users\Alvi17\Documents\ThesisPaper\main.toc
 1: section
-[9])
-\tf@toc=\write5
- [10] (C:\Users\Alvi17\Documents\ThesisPaper\main.lof)
-\tf@lof=\write6
+[4
 
+] [5] [6])
+\tf@toc=\write4
+ [7] (C:\Users\Alvi17\Documents\ThesisPaper\main.lof
 1: section
-[11
+[8
 
-] [12
-
-] (C:\Users\Alvi17\Documents\ThesisPaper\main.lot)
-\tf@lot=\write7
-
+])
+\tf@lof=\write5
+ [9] (C:\Users\Alvi17\Documents\ThesisPaper\main.lot
 1: section
-[13] [14
+[10
 
-]
---------------------
- Dedicatory
---------------------
-1: section
-[15] [16
-
-]
+])
+\tf@lot=\write6
+ [11]
 1: section
 (C:\Users\Alvi17\Documents\ThesisPaper\Chapters/Chapter1.tex
 Chapter 1.
-)
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17.28> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 20.
+
+Overfull \hbox (5.2586pt too wide) in paragraph at lines 21--23
+\T1/ppl/m/n/12 aca-demic per-for-mance of a stu-dent varies from de-part-ment t
+o de-part-ment.After
+ []
+
 1: section
-[1
-
-
-] (C:\Users\Alvi17\Documents\ThesisPaper\Chapters/Chapter2.tex [2
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.23 \section
+             {Scope of the Work} [1
 
 
 
 ]
+Overfull \hbox (12.01434pt too wide) in paragraph at lines 24--26
+\T1/ppl/m/n/12 of Ar-chi-tec-ture,Department of Wa-ter Re-source En-gi-neer-ing
+,Department of Naval
+ []
+
+
+Overfull \hbox (39.50565pt too wide) in paragraph at lines 24--26
+\T1/ppl/m/n/12 Ar-chi-tec-ture & Ma-rine En-gi-neer-ing,Department of Chem-i-ca
+l En-gi-neer-ing,Department
+ []
+
+[2]
+Overfull \hbox (6.2422pt too wide) in paragraph at lines 39--42
+\T1/ppl/m/n/12 All the lit-er-a-ture stud-ies e.g., pre-pro-cess-ing of raw dat
+a, pre-lim-iner-ies of Knowl-
+ []
+
+[3]) [4] (C:\Users\Alvi17\Documents\ThesisPaper\Chapters/Chapter2.tex
 Chapter 2.
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 15.
-
-LaTeX Warning: Citation 'knowledge discovery' on page 3 undefined on input line
- 16.
-
-
-LaTeX Warning: Citation 'IBM' on page 3 undefined on input line 16.
-
-
-LaTeX Warning: Citation 'kddsteps' on page 3 undefined on input line 17.
-
-<Figures/kdsteps.jpg, id=544, 404.26031pt x 255.95625pt>
+<Figures/kdsteps.jpg, id=642, 404.26031pt x 255.95625pt>
 File: Figures/kdsteps.jpg Graphic file (type jpg)
 
 <use Figures/kdsteps.jpg>
@@ -1605,7 +1481,11 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 31.
 
 1: section
-[3]
+[5
+
+
+
+] [6 <C:/Users/Alvi17/Documents/ThesisPaper/Figures/kdsteps.jpg>]
 Overfull \hbox (3.18248pt too wide) in paragraph at lines 38--39
 \T1/ppl/m/n/12 With the help of di-men-sion-al-ity re-duc-tion or trans-for-ma-
 tion meth-ods, the num-
@@ -1617,103 +1497,364 @@ Overfull \hbox (1.0949pt too wide) in paragraph at lines 40--41
  dif-fer-ent lan-guages
  []
 
-[4 <C:/Users/Alvi17/Documents/ThesisPaper/Figures/kdsteps.jpg>]
+[7]
 Underfull \hbox (badness 10000) in paragraph at lines 50--51
 
  []
 
-<Figures/datamining.jpg, id=555, 300.906pt x 191.187pt>
+<Figures/datamining.jpg, id=660, 300.906pt x 191.187pt>
 File: Figures/datamining.jpg Graphic file (type jpg)
 
 <use Figures/datamining.jpg>
 Package pdftex.def Info: Figures/datamining.jpg used on input line 65.
 (pdftex.def)             Requested size: 412.56499pt x 262.15797pt.
- [5] [6 <C:/Users/Alvi17/Documents/ThesisPaper/Figures/datamining.jpg>] [7]
-
-LaTeX Warning: Citation 'data cleaning' on page 8 undefined on input line 150.
-
-
+ [8] [9 <C:/Users/Alvi17/Documents/ThesisPaper/Figures/datamining.jpg>] [10] [1
+1] [12]
 Overfull \hbox (4.86243pt too wide) in paragraph at lines 150--153
 \T1/ppl/m/n/12 Data that is to be an-a-lyzed by data min-ing tech-niques can be
  in-com-plete(lacking
  []
 
 
-Overfull \hbox (28.946pt too wide) in paragraph at lines 150--153
+Overfull \hbox (8.63008pt too wide) in paragraph at lines 150--153
 \T1/ppl/m/n/12 data),noisy(containing er-rors,or out-lier val-ues which de-vi-a
-te from the ex-pected),and
+te from the ex-pected),
  []
 
-[8]
+[13] [14] [15] [16] [17]
+Underfull \hbox (badness 10000) in paragraph at lines 245--255
 
-LaTeX Warning: Citation 'Data Integration' on page 9 undefined on input line 17
-6.
+ []
 
-[9] [10]
-Overfull \hbox (2.95416pt too wide) in paragraph at lines 229--230
+[18]
+Overfull \hbox (2.95416pt too wide) in paragraph at lines 276--277
 \T1/ppl/m/n/12 structed to pre-dict class (cat-e-gor-i-cal) la-bels.This model 
 is a pre-dic-tor.Regression
  []
 
-<Figures/classification.jpg, id=594, 963.6pt x 542.025pt>
+<Figures/classification.jpg, id=727, 963.6pt x 542.025pt>
 File: Figures/classification.jpg Graphic file (type jpg)
 
 <use Figures/classification.jpg>
-Package pdftex.def Info: Figures/classification.jpg used on input line 250.
+Package pdftex.def Info: Figures/classification.jpg used on input line 297.
 (pdftex.def)             Requested size: 412.56499pt x 232.06546pt.
-
-Overfull \hbox (72.63185pt too wide) in paragraph at lines 238--255
-\T1/ppl/m/n/12 ing n mea-sure-ments made on the tu-ple from n database at-tribu
-tes, respectively,$\OML/cmm/m/it/12 A[]; A[]; ::::A[]$\T1/ppl/m/n/12 .[][][][][
-]
- []
-
-[11] [12 <C:/Users/Alvi17/Documents/ThesisPaper/Figures/classification.jpg>]
-<Figures/dm_decision_tree.jpg, id=617, 413.545pt x 294.09875pt>
+ [19] [20 <C:/Users/Alvi17/Documents/ThesisPaper/Figures/classification.jpg>]
+<Figures/dm_decision_tree.jpg, id=746, 413.545pt x 294.09875pt>
 File: Figures/dm_decision_tree.jpg Graphic file (type jpg)
 
 <use Figures/dm_decision_tree.jpg>
-Package pdftex.def Info: Figures/dm_decision_tree.jpg used on input line 274.
+Package pdftex.def Info: Figures/dm_decision_tree.jpg used on input line 321.
 (pdftex.def)             Requested size: 412.56499pt x 293.40692pt.
 
-Overfull \hbox (17.62482pt too wide) detected at line 325
+Overfull \hbox (17.62482pt too wide) detected at line 372
 [][] 
  []
 
-[13 <C:/Users/Alvi17/Documents/ThesisPaper/Figures/dm_decision_tree.jpg>]
-[14] [15]
-Overfull \hbox (0.44543pt too wide) in paragraph at lines 383--388
+[21] [22 <C:/Users/Alvi17/Documents/ThesisPaper/Figures/dm_decision_tree.jpg>]
+[23] [24] [25]
+Overfull \hbox (0.44543pt too wide) in paragraph at lines 431--436
 \T1/ppl/m/n/12 This value rep-re-sents the po-ten-tial in-for-ma-tion gen-er-at
 ed by split-ting the train-
  []
 
-[16]
-Overfull \hbox (3.41026pt too wide) in paragraph at lines 406--417
+[26]
+Overfull \hbox (3.41026pt too wide) in paragraph at lines 454--465
 \T1/ppl/m/n/12 Attribute se-lec-tion mea-sures based on the Min-i-mum De-scrip-
 tion Length (MDL)
  []
 
-) [17] (C:\Users\Alvi17\Documents\ThesisPaper\Chapters/Chapter3.tex [18
-
-
-
-]
+) [27] (C:\Users\Alvi17\Documents\ThesisPaper\Chapters/Chapter3.tex
 Chapter 3.
-)
+
+Overfull \hbox (8.95377pt too wide) in paragraph at lines 13--17
+\T1/ppl/m/n/12 spec-tive de-part-ment is dif-fer-ent ac-cord-ing to the de-part
+-ment fa-cil-ity.Department
+ []
+
 1: section
-[19] (C:\Users\Alvi17\Documents\ThesisPaper\Chapters/Chapter4.tex [20
+[28
 
 
 
-]
+] [29] [30]
+Overfull \hbox (7.2337pt too wide) in paragraph at lines 60--60
+[]|\T1/ppl/m/n/12 Department| 
+ []
+
+
+Overfull \hbox (7.46164pt too wide) in paragraph at lines 60--60
+[]|\T1/ppl/m/n/12 LetterGrade| 
+ []
+
+
+Overfull \hbox (1.31885pt too wide) in paragraph at lines 77--77
+[]|\T1/ppl/m/n/12 Serial| 
+ []
+
+
+Overfull \hbox (7.2337pt too wide) in paragraph at lines 77--77
+[]|\T1/ppl/m/n/12 Department| 
+ []
+
+
+Overfull \hbox (13.28186pt too wide) in paragraph at lines 77--77
+[]|\T1/ppl/m/n/12 CourseName| 
+ []
+
+
+Overfull \hbox (3.09387pt too wide) in paragraph at lines 77--77
+[]|\T1/ppl/m/n/12 PartAMark| 
+ []
+
+
+Overfull \hbox (1.08998pt too wide) in paragraph at lines 77--77
+[]|\T1/ppl/m/n/12 PartBMark| 
+ []
+
+
+Overfull \hbox (1.31885pt too wide) in paragraph at lines 95--95
+[]|\T1/ppl/m/n/12 Serial| 
+ []
+
+
+Overfull \hbox (7.2337pt too wide) in paragraph at lines 95--95
+[]|\T1/ppl/m/n/12 Department| 
+ []
+
+
+Overfull \hbox (1.31885pt too wide) in paragraph at lines 113--113
+[]|\T1/ppl/m/n/12 Serial| 
+ []
+
+
+Overfull \hbox (7.2337pt too wide) in paragraph at lines 113--113
+[]|\T1/ppl/m/n/12 Department| 
+ []
+
+
+Overfull \hbox (4.3777pt too wide) in paragraph at lines 113--113
+[]|\T1/ppl/m/n/12 Attendance 
+ []
+
+
+Overfull \hbox (5.12177pt too wide) in paragraph at lines 113--113
+\T1/ppl/m/n/12 CreditHour 
+ []
+
+
+Overfull \hbox (2.19376pt too wide) in paragraph at lines 113--113
+\T1/ppl/m/n/12 Completed| 
+ []
+
+
+Overfull \hbox (19.56003pt too wide) in paragraph at lines 107--124
+[]\T1/ppl/m/n/12 Some at-tributes like \T1/ppl/m/it/12 To-tal-Cred-itHour-Com-p
+leted,AttendanceMarks,ClassTestMark
+ []
+
+) [31] [32] (C:\Users\Alvi17\Documents\ThesisPaper\Chapters/Chapter4.tex
 Chapter 4.
-)
+
+Overfull \hbox (1.31885pt too wide) in paragraph at lines 23--23
+[]|\T1/ppl/m/n/12 Serial| 
+ []
+
+
+Overfull \hbox (7.2337pt too wide) in paragraph at lines 23--23
+[]|\T1/ppl/m/n/12 Department| 
+ []
+
+
+Overfull \hbox (13.28186pt too wide) in paragraph at lines 23--23
+[]|\T1/ppl/m/n/12 CourseName| 
+ []
+
+
+Overfull \hbox (3.09387pt too wide) in paragraph at lines 23--23
+[]|\T1/ppl/m/n/12 PartAMark| 
+ []
+
+
+Overfull \hbox (1.08998pt too wide) in paragraph at lines 23--23
+[]|\T1/ppl/m/n/12 PartBMark| 
+ []
+
+
+Overfull \hbox (1.31885pt too wide) in paragraph at lines 41--41
+[]|\T1/ppl/m/n/12 Serial| 
+ []
+
+
+Overfull \hbox (7.2337pt too wide) in paragraph at lines 41--41
+[]|\T1/ppl/m/n/12 Department| 
+ []
+
+
+Overfull \hbox (13.28186pt too wide) in paragraph at lines 41--41
+[]|\T1/ppl/m/n/12 CourseName| 
+ []
+
+
+Overfull \hbox (3.09387pt too wide) in paragraph at lines 41--41
+[]|\T1/ppl/m/n/12 PartAMark| 
+ []
+
+
+Overfull \hbox (1.08998pt too wide) in paragraph at lines 41--41
+[]|\T1/ppl/m/n/12 PartBMark| 
+ []
+
+
+Overfull \hbox (1.31885pt too wide) in paragraph at lines 58--58
+[]|\T1/ppl/m/n/12 Serial| 
+ []
+
+
+Overfull \hbox (7.2337pt too wide) in paragraph at lines 58--58
+[]|\T1/ppl/m/n/12 Department| 
+ []
+
+
+Overfull \hbox (13.28186pt too wide) in paragraph at lines 58--58
+[]|\T1/ppl/m/n/12 CourseName| 
+ []
+
+
+Overfull \hbox (7.46164pt too wide) in paragraph at lines 58--58
+[]|\T1/ppl/m/n/12 LetterGrade| 
+ []
+
+
+Overfull \hbox (4.42055pt too wide) in paragraph at lines 60--60
+[]|\T1/ppl/m/n/12 Dhamrai| 
+ []
+
+
+Overfull \hbox (1.54726pt too wide) in paragraph at lines 62--62
+[]|\T1/ppl/m/n/12 14251| 
+ []
+
+
+Overfull \hbox (1.4204pt too wide) in paragraph at lines 62--62
+[]|\T1/ppl/m/n/12 Satkhira| 
+ []
+
+
+Overfull \hbox (1.31885pt too wide) in paragraph at lines 75--75
+[]|\T1/ppl/m/n/12 Serial| 
+ []
+
+
+Overfull \hbox (7.2337pt too wide) in paragraph at lines 75--75
+[]|\T1/ppl/m/n/12 Department| 
+ []
+
+
+Overfull \hbox (13.28186pt too wide) in paragraph at lines 75--75
+[]|\T1/ppl/m/n/12 CourseName| 
+ []
+
+
+Overfull \hbox (7.46164pt too wide) in paragraph at lines 75--75
+[]|\T1/ppl/m/n/12 LetterGrade| 
+ []
+
+
+Overfull \hbox (1.54726pt too wide) in paragraph at lines 79--79
+[]|\T1/ppl/m/n/12 14251| 
+ []
+
+
+Overfull \hbox (1.31885pt too wide) in paragraph at lines 93--93
+[]|\T1/ppl/m/n/12 Serial| 
+ []
+
+
+Overfull \hbox (7.2337pt too wide) in paragraph at lines 93--93
+[]|\T1/ppl/m/n/12 Department| 
+ []
+
+
+Overfull \hbox (1.54726pt too wide) in paragraph at lines 97--97
+[]|\T1/ppl/m/n/12 14251| 
+ []
+
+
+Overfull \hbox (1.31885pt too wide) in paragraph at lines 110--110
+[]|\T1/ppl/m/n/12 Serial| 
+ []
+
+
+Overfull \hbox (7.2337pt too wide) in paragraph at lines 110--110
+[]|\T1/ppl/m/n/12 Department| 
+ []
+
+
+Overfull \hbox (1.54726pt too wide) in paragraph at lines 114--114
+[]|\T1/ppl/m/n/12 14251| 
+ []
+
+
+Overfull \hbox (1.31885pt too wide) in paragraph at lines 127--127
+[]|\T1/ppl/m/n/12 Serial| 
+ []
+
+
+Overfull \hbox (7.2337pt too wide) in paragraph at lines 127--127
+[]|\T1/ppl/m/n/12 Department| 
+ []
+
+
+Overfull \hbox (10.43642pt too wide) in paragraph at lines 127--127
+[]|\T1/ppl/m/n/12 CourseName| 
+ []
+
+
+Overfull \hbox (1.54726pt too wide) in paragraph at lines 131--131
+[]|\T1/ppl/m/n/12 14251| 
+ []
+
+
+Overfull \hbox (1.77118pt too wide) in paragraph at lines 145--145
+[]|\T1/ppl/m/n/12 LetterGrade| 
+ []
+
 1: section
-[21] (C:\Users\Alvi17\Documents\ThesisPaper\Chapters/Chapter5.tex [22
+[33
 
 
 
 ]
+Overfull \hbox (1.31885pt too wide) in paragraph at lines 180--180
+[]|\T1/ppl/m/n/12 Serial| 
+ []
+
+
+Overfull \hbox (7.2337pt too wide) in paragraph at lines 180--180
+[]|\T1/ppl/m/n/12 Department| 
+ []
+
+
+Overfull \hbox (10.43642pt too wide) in paragraph at lines 180--180
+[]|\T1/ppl/m/n/12 CourseName| 
+ []
+
+
+Overfull \hbox (11.69514pt too wide) in paragraph at lines 180--180
+[]|\T1/ppl/m/n/12 CourseCreditHour| 
+ []
+
+
+Overfull \hbox (1.54726pt too wide) in paragraph at lines 184--184
+[]|\T1/ppl/m/n/12 14251| 
+ []
+
+[34]
+
+LaTeX Warning: Command \textless invalid in math mode on input line 206.
+
+[35]) [36] [37] [38]
+(C:\Users\Alvi17\Documents\ThesisPaper\Chapters/Chapter5.tex
 Chapter 5.
 
 Overfull \hbox (1.52711pt too wide) in paragraph at lines 22--23
@@ -1721,242 +1862,288 @@ Overfull \hbox (1.52711pt too wide) in paragraph at lines 22--23
  de-scribed in Chaper
  []
 
+1: section
+[39
 
-Overfull \hbox (80.02055pt too wide) in paragraph at lines 41--53
+
+
+]
+Overfull \hbox (11.0453pt too wide) in paragraph at lines 41--53
  [][] 
  []
 
-<Figures/Presentation1_2.jpg, id=674, 963.6pt x 542.025pt>
+<Figures/Presentation1_2.jpg, id=854, 963.6pt x 542.025pt>
 File: Figures/Presentation1_2.jpg Graphic file (type jpg)
 
 <use Figures/Presentation1_2.jpg>
 Package pdftex.def Info: Figures/Presentation1_2.jpg used on input line 60.
 (pdftex.def)             Requested size: 412.56499pt x 232.06546pt.
 
-1: section
-[23] [24 <C:/Users/Alvi17/Documents/ThesisPaper/Figures/Presentation1_2.jpg>]
-Overfull \hbox (68.29416pt too wide) in paragraph at lines 83--83
-$\OML/cmm/m/it/12 attribute[]list\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 SID; Departm
-ent; Hall; Attendance; ClassTest; Cgpa; CreditComplete\OT1/cmr/m/n/12 )$\T1/ppl
-/m/n/12 , 
- []
-
-
-Overfull \hbox (17.62482pt too wide) detected at line 124
+Overfull \hbox (17.62482pt too wide) detected at line 123
 [][] 
  []
 
-[25]
-Overfull \vbox (1.43414pt too high) has occurred while \output is active []
 
-
-[26]
-Overfull \hbox (19.62505pt too wide) in paragraph at lines 132--153
+Overfull \hbox (18.0451pt too wide) in paragraph at lines 161--182
  [][] 
  []
 
+[40] [41 <C:/Users/Alvi17/Documents/ThesisPaper/Figures/Presentation1_2.jpg>]
 
-Overfull \hbox (84.02036pt too wide) in paragraph at lines 162--183
- [][] 
- []
+LaTeX Warning: Text page 42 contains only floats.
 
-[27] <Figures/Slide3.jpg, id=707, 963.6pt x 542.025pt>
+[42] [43] <Figures/Slide3.jpg, id=881, 963.6pt x 542.025pt>
 File: Figures/Slide3.jpg Graphic file (type jpg)
 
 <use Figures/Slide3.jpg>
-Package pdftex.def Info: Figures/Slide3.jpg used on input line 230.
+Package pdftex.def Info: Figures/Slide3.jpg used on input line 229.
 (pdftex.def)             Requested size: 412.56499pt x 232.06546pt.
- <Figures/Slide2.jpg, id=710, 963.6pt x 542.025pt>
+ <Figures/Slide2.jpg, id=884, 963.6pt x 542.025pt>
 File: Figures/Slide2.jpg Graphic file (type jpg)
 
 <use Figures/Slide2.jpg>
-Package pdftex.def Info: Figures/Slide2.jpg used on input line 259.
+Package pdftex.def Info: Figures/Slide2.jpg used on input line 258.
 (pdftex.def)             Requested size: 412.56499pt x 232.06546pt.
- <Figures/Slide4.jpg, id=713, 963.6pt x 542.025pt>
-File: Figures/Slide4.jpg Graphic file (type jpg)
-
-<use Figures/Slide4.jpg>
-Package pdftex.def Info: Figures/Slide4.jpg used on input line 290.
-(pdftex.def)             Requested size: 412.56499pt x 232.06546pt.
- [28] [29 <C:/Users/Alvi17/Documents/ThesisPaper/Figures/Slide3.jpg> <C:/Users/
+ [44] [45 <C:/Users/Alvi17/Documents/ThesisPaper/Figures/Slide3.jpg> <C:/Users/
 Alvi17/Documents/ThesisPaper/Figures/Slide2.jpg>]
-[30 <C:/Users/Alvi17/Documents/ThesisPaper/Figures/Slide4.jpg>]
-<Figures/Slide5.jpg, id=728, 963.6pt x 542.025pt>
+<Figures/Slide4.jpg, id=895, 963.6pt x 542.025pt>
+File: Figures/Slide4.jpg Graphic file (type jpg)
+ <use Figures/Slide4.jpg>
+Package pdftex.def Info: Figures/Slide4.jpg used on input line 289.
+(pdftex.def)             Requested size: 412.56499pt x 232.06546pt.
+
+<Figures/Slide5.jpg, id=898, 963.6pt x 542.025pt>
 File: Figures/Slide5.jpg Graphic file (type jpg)
  <use Figures/Slide5.jpg>
-Package pdftex.def Info: Figures/Slide5.jpg used on input line 323.
+Package pdftex.def Info: Figures/Slide5.jpg used on input line 322.
 (pdftex.def)             Requested size: 412.56499pt x 232.06546pt.
 
-<Figures/Slide6.jpg, id=731, 963.6pt x 542.025pt>
+[46 <C:/Users/Alvi17/Documents/ThesisPaper/Figures/Slide4.jpg>] [47 <C:/Users/A
+lvi17/Documents/ThesisPaper/Figures/Slide5.jpg>]
+<Figures/Slide6.jpg, id=909, 963.6pt x 542.025pt>
 File: Figures/Slide6.jpg Graphic file (type jpg)
  <use Figures/Slide6.jpg>
-Package pdftex.def Info: Figures/Slide6.jpg used on input line 355.
+Package pdftex.def Info: Figures/Slide6.jpg used on input line 354.
 (pdftex.def)             Requested size: 412.56499pt x 232.06546pt.
 
-Overfull \hbox (3.57823pt too wide) in paragraph at lines 366--384
+Overfull \hbox (3.57823pt too wide) in paragraph at lines 365--383
 \T1/ppl/m/n/12 The over-all per-for-mance of MME de-part-ment is shown in Fig-u
-re [][]5.7[][]. According
+re []5.7[]. According
  []
 
-<Figures/Slide7.jpg, id=734, 963.6pt x 542.025pt>
+<Figures/Slide7.jpg, id=912, 963.6pt x 542.025pt>
 File: Figures/Slide7.jpg Graphic file (type jpg)
  <use Figures/Slide7.jpg>
-Package pdftex.def Info: Figures/Slide7.jpg used on input line 387.
+Package pdftex.def Info: Figures/Slide7.jpg used on input line 386.
 (pdftex.def)             Requested size: 412.56499pt x 232.06546pt.
 
-[31 <C:/Users/Alvi17/Documents/ThesisPaper/Figures/Slide5.jpg>] [32 <C:/Users/A
-lvi17/Documents/ThesisPaper/Figures/Slide6.jpg>]
-<Figures/Slide8.jpg, id=745, 963.6pt x 542.025pt>
+[48 <C:/Users/Alvi17/Documents/ThesisPaper/Figures/Slide6.jpg>] [49 <C:/Users/A
+lvi17/Documents/ThesisPaper/Figures/Slide7.jpg>]
+<Figures/Slide8.jpg, id=924, 963.6pt x 542.025pt>
 File: Figures/Slide8.jpg Graphic file (type jpg)
  <use Figures/Slide8.jpg>
-Package pdftex.def Info: Figures/Slide8.jpg used on input line 418.
+Package pdftex.def Info: Figures/Slide8.jpg used on input line 417.
 (pdftex.def)             Requested size: 412.56499pt x 232.06546pt.
 
-Overfull \hbox (11.53409pt too wide) in paragraph at lines 427--446
+Overfull \hbox (11.53409pt too wide) in paragraph at lines 426--445
 \T1/ppl/m/n/12 The over-all per-for-mance of NAME de-part-ment is shown in Fig-
-ure [][]5.9[][]. According
+ure []5.9[]. According
  []
 
-<Figures/Slide9.jpg, id=748, 963.6pt x 542.025pt>
+<Figures/Slide9.jpg, id=927, 963.6pt x 542.025pt>
 File: Figures/Slide9.jpg Graphic file (type jpg)
  <use Figures/Slide9.jpg>
-Package pdftex.def Info: Figures/Slide9.jpg used on input line 449.
+Package pdftex.def Info: Figures/Slide9.jpg used on input line 448.
 (pdftex.def)             Requested size: 412.56499pt x 232.06546pt.
 
-Overfull \hbox (4.14204pt too wide) in paragraph at lines 458--477
+Overfull \hbox (4.14204pt too wide) in paragraph at lines 457--476
 \T1/ppl/m/n/12 The over-all per-for-mance of URP de-part-ment is shown in Fig-u
-re [][]5.10[][]. According
+re []5.10[]. According
  []
 
-<Figures/Slide10.jpg, id=751, 963.6pt x 542.025pt>
+[50 <C:/Users/Alvi17/Documents/ThesisPaper/Figures/Slide8.jpg>] [51 <C:/Users/A
+lvi17/Documents/ThesisPaper/Figures/Slide9.jpg>]
+<Figures/Slide10.jpg, id=938, 963.6pt x 542.025pt>
 File: Figures/Slide10.jpg Graphic file (type jpg)
  <use Figures/Slide10.jpg>
-Package pdftex.def Info: Figures/Slide10.jpg used on input line 480.
+Package pdftex.def Info: Figures/Slide10.jpg used on input line 479.
 (pdftex.def)             Requested size: 412.56499pt x 232.06546pt.
 
-Overfull \hbox (15.38602pt too wide) in paragraph at lines 491--510
+Overfull \hbox (15.38602pt too wide) in paragraph at lines 490--509
 \T1/ppl/m/n/12 The over-all per-for-mance of ARCH de-part-ment is shown in Fig-
-ure [][]5.11[][]. According
+ure []5.11[]. According
  []
 
-[33 <C:/Users/Alvi17/Documents/ThesisPaper/Figures/Slide7.jpg>] [34 <C:/Users/A
-lvi17/Documents/ThesisPaper/Figures/Slide8.jpg> <C:/Users/Alvi17/Documents/Thes
-isPaper/Figures/Slide9.jpg>] [35 <C:/Users/Alvi17/Documents/ThesisPaper/Figures
-/Slide10.jpg>] <Figures/Slide11.jpg, id=767, 963.6pt x 542.025pt>
+<Figures/Slide11.jpg, id=941, 963.6pt x 542.025pt>
 File: Figures/Slide11.jpg Graphic file (type jpg)
-
-<use Figures/Slide11.jpg>
-Package pdftex.def Info: Figures/Slide11.jpg used on input line 513.
+ <use Figures/Slide11.jpg>
+Package pdftex.def Info: Figures/Slide11.jpg used on input line 512.
 (pdftex.def)             Requested size: 412.56499pt x 232.06546pt.
 
-Overfull \hbox (6.89024pt too wide) in paragraph at lines 523--542
+Overfull \hbox (6.89024pt too wide) in paragraph at lines 522--541
 \T1/ppl/m/n/12 The over-all per-for-mance of WRE de-part-ment is shown in Fig-u
-re [][]5.12[][]. According
+re []5.12[]. According
  []
 
-<Figures/Slide12.jpg, id=770, 963.6pt x 542.025pt>
+[52 <C:/Users/Alvi17/Documents/ThesisPaper/Figures/Slide10.jpg>] [53 <C:/Users/
+Alvi17/Documents/ThesisPaper/Figures/Slide11.jpg>]
+<Figures/Slide12.jpg, id=952, 963.6pt x 542.025pt>
 File: Figures/Slide12.jpg Graphic file (type jpg)
  <use Figures/Slide12.jpg>
-Package pdftex.def Info: Figures/Slide12.jpg used on input line 545.
+Package pdftex.def Info: Figures/Slide12.jpg used on input line 544.
 (pdftex.def)             Requested size: 412.56499pt x 232.06546pt.
 
-<Figures/Slide19.jpg, id=771, 963.6pt x 542.025pt>
+<Figures/Slide19.jpg, id=953, 963.6pt x 542.025pt>
 File: Figures/Slide19.jpg Graphic file (type jpg)
  <use Figures/Slide19.jpg>
-Package pdftex.def Info: Figures/Slide19.jpg used on input line 554.
+Package pdftex.def Info: Figures/Slide19.jpg used on input line 553.
 (pdftex.def)             Requested size: 412.56499pt x 232.06546pt.
 
-[36 <C:/Users/Alvi17/Documents/ThesisPaper/Figures/Slide11.jpg>] [37 <C:/Users/
-Alvi17/Documents/ThesisPaper/Figures/Slide12.jpg> <C:/Users/Alvi17/Documents/Th
-esisPaper/Figures/Slide19.jpg>]
-<Figures/Slide13.jpg, id=783, 963.6pt x 542.025pt>
+[54 <C:/Users/Alvi17/Documents/ThesisPaper/Figures/Slide12.jpg>]
+<Figures/Slide13.jpg, id=962, 963.6pt x 542.025pt>
 File: Figures/Slide13.jpg Graphic file (type jpg)
  <use Figures/Slide13.jpg>
-Package pdftex.def Info: Figures/Slide13.jpg used on input line 569.
+Package pdftex.def Info: Figures/Slide13.jpg used on input line 568.
 (pdftex.def)             Requested size: 412.56499pt x 232.06546pt.
 
-<Figures/Slide14.jpg, id=786, 963.6pt x 542.025pt>
+[55 <C:/Users/Alvi17/Documents/ThesisPaper/Figures/Slide19.jpg>]
+<Figures/Slide14.jpg, id=969, 963.6pt x 542.025pt>
 File: Figures/Slide14.jpg Graphic file (type jpg)
  <use Figures/Slide14.jpg>
-Package pdftex.def Info: Figures/Slide14.jpg used on input line 600.
+Package pdftex.def Info: Figures/Slide14.jpg used on input line 599.
 (pdftex.def)             Requested size: 412.56499pt x 232.06546pt.
 
-[38 <C:/Users/Alvi17/Documents/ThesisPaper/Figures/Slide13.jpg>] [39 <C:/Users/
-Alvi17/Documents/ThesisPaper/Figures/Slide14.jpg>]
-<Figures/Slide15.jpg, id=798, 963.6pt x 542.025pt>
+<Figures/Slide15.jpg, id=972, 963.6pt x 542.025pt>
 File: Figures/Slide15.jpg Graphic file (type jpg)
  <use Figures/Slide15.jpg>
-Package pdftex.def Info: Figures/Slide15.jpg used on input line 632.
+Package pdftex.def Info: Figures/Slide15.jpg used on input line 631.
 (pdftex.def)             Requested size: 412.56499pt x 232.06546pt.
 
-<Figures/Slide16.jpg, id=801, 963.6pt x 542.025pt>
+<Figures/Slide16.jpg, id=975, 963.6pt x 542.025pt>
 File: Figures/Slide16.jpg Graphic file (type jpg)
  <use Figures/Slide16.jpg>
-Package pdftex.def Info: Figures/Slide16.jpg used on input line 660.
+Package pdftex.def Info: Figures/Slide16.jpg used on input line 659.
 (pdftex.def)             Requested size: 412.56499pt x 232.06546pt.
 
-[40 <C:/Users/Alvi17/Documents/ThesisPaper/Figures/Slide15.jpg>] [41 <C:/Users/
-Alvi17/Documents/ThesisPaper/Figures/Slide16.jpg>]
+[56 <C:/Users/Alvi17/Documents/ThesisPaper/Figures/Slide13.jpg>] [57 <C:/Users/
+Alvi17/Documents/ThesisPaper/Figures/Slide14.jpg> <C:/Users/Alvi17/Documents/Th
+esisPaper/Figures/Slide15.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 689--690
 
-LaTeX Warning: Reference `fig:Impact of Credit completion on Performance' on pa
-ge 42 undefined on input line 690.
+ []
 
-<Figures/Slide18.jpg, id=811, 963.6pt x 542.025pt>
+[58 <C:/Users/Alvi17/Documents/ThesisPaper/Figures/Slide16.jpg>]
+<Figures/Slide18.jpg, id=990, 963.6pt x 542.025pt>
 File: Figures/Slide18.jpg Graphic file (type jpg)
  <use Figures/Slide18.jpg>
-Package pdftex.def Info: Figures/Slide18.jpg used on input line 694.
+Package pdftex.def Info: Figures/Slide18.jpg used on input line 693.
 (pdftex.def)             Requested size: 412.56499pt x 232.06546pt.
 )
-[42 <C:/Users/Alvi17/Documents/ThesisPaper/Figures/Slide18.jpg>]
+[59 <C:/Users/Alvi17/Documents/ThesisPaper/Figures/Slide18.jpg>]
 (C:\Users\Alvi17\Documents\ThesisPaper\Chapters/Chapter6.tex
 Chapter 6.
-)
+
+Overfull \hbox (0.20645pt too wide) in paragraph at lines 18--19
+\T1/ppl/m/n/12 The Clas-si-fier has five class la-bels. They are ex-cel-lent,go
+od,moderate,poor,very
+ []
+
 1: section
-[43
-
-
-
-] (C:\Users\Alvi17\Documents\ThesisPaper\Appendices/AppendixA.tex [44
+[60
 
 
 
 ]
+Overfull \hbox (2.26938pt too wide) in paragraph at lines 24--25
+\T1/ppl/m/n/12 over-all per-for-mance.Students with good at-ten-dance trends to
+ be in higher
+ []
+
+) [61] (C:\Users\Alvi17\Documents\ThesisPaper\Appendices/AppendixA.tex
 Appendix A.
+<Figures/data.jpg, id=1006, 1007.26312pt x 405.76593pt>
+File: Figures/data.jpg Graphic file (type jpg)
+ <use Figures/data.jpg>
+Package pdftex.def Info: Figures/data.jpg used on input line 11.
+(pdftex.def)             Requested size: 412.56499pt x 166.19794pt.
+
+<Figures/data1.jpg, id=1007, 1011.78pt x 418.56375pt>
+File: Figures/data1.jpg Graphic file (type jpg)
+ <use Figures/data1.jpg>
+Package pdftex.def Info: Figures/data1.jpg used on input line 19.
+(pdftex.def)             Requested size: 412.56499pt x 170.67339pt.
 )
 1: section
-[45]
+[62
 
-LaTeX Warning: Empty bibliography on input line 208.
 
-[46
+
+] [63 <C:/Users/Alvi17/Documents/ThesisPaper/Figures/data.jpg> <C:/Users/Alvi17
+/Documents/ThesisPaper/Figures/data1.jpg>]
+(C:\Users\Alvi17\Documents\ThesisPaper\Appendices/AppendixB.tex
+Appendix B.
+<Figures/deptgrade.jpg, id=1016, 963.6pt x 542.025pt>
+File: Figures/deptgrade.jpg Graphic file (type jpg)
+
+<use Figures/deptgrade.jpg>
+Package pdftex.def Info: Figures/deptgrade.jpg used on input line 13.
+(pdftex.def)             Requested size: 412.56499pt x 232.06546pt.
+
+<Figures/depresult.jpg, id=1018, 963.6pt x 542.025pt>
+File: Figures/depresult.jpg Graphic file (type jpg)
+
+<use Figures/depresult.jpg>
+Package pdftex.def Info: Figures/depresult.jpg used on input line 25.
+(pdftex.def)             Requested size: 412.56499pt x 232.06546pt.
+)
+1: section
+[64
+
+
+
+] [65 <C:/Users/Alvi17/Documents/ThesisPaper/Figures/deptgrade.jpg> <C:/Users/A
+lvi17/Documents/ThesisPaper/Figures/depresult.jpg>]
+(C:\Users\Alvi17\Documents\ThesisPaper\Appendices/AppendixC.tex
+Appendix C.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 7--214
+
+ []
+
+1: section
+[66
+
 
 
 ]
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 214.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 227.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\t1pcr.fd"
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 214--215
-[][][]$\T1/pcr/m/n/12 http : / / researcher . watson . ibm . com / researcher /
- view _$
+Underfull \hbox (badness 10000) in paragraph at lines 233--234
+[][]$\T1/pcr/m/n/12 http : / / researcher . watson . ibm . com / researcher / v
+iew _$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 216--217
-[][][]$\T1/pcr/m/n/12 http : / / www . usc . edu / dept / ancntr / Paris-[]in-[
-]LA / Analysis /$
+Underfull \hbox (badness 10000) in paragraph at lines 235--236
+[][]$\T1/pcr/m/n/12 http : / / www . usc . edu / dept / ancntr / Paris-[]in-[]L
+A / Analysis /$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 218--219
-[][][]$\T1/pcr/m/n/12 http : / / www . cs . ccsu . edu / ~markov / ccsu _ cours
-es /$
+Underfull \hbox (badness 10000) in paragraph at lines 237--238
+[][]$\T1/pcr/m/n/12 http : / / www . cs . ccsu . edu / ~markov / ccsu _ courses
+ /$
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 226.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 245.
 1: section
-[47]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 226.
+[67
+
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 245.
  (C:\Users\Alvi17\Documents\ThesisPaper\main.aux
 (C:\Users\Alvi17\Documents\ThesisPaper\Chapters/Chapter1.aux)
 (C:\Users\Alvi17\Documents\ThesisPaper\Chapters/Chapter2.aux)
@@ -1964,74 +2151,47 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 226.
 (C:\Users\Alvi17\Documents\ThesisPaper\Chapters/Chapter4.aux)
 (C:\Users\Alvi17\Documents\ThesisPaper\Chapters/Chapter5.aux)
 (C:\Users\Alvi17\Documents\ThesisPaper\Chapters/Chapter6.aux)
-(C:\Users\Alvi17\Documents\ThesisPaper\Appendices/AppendixA.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 226.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 226.
+(C:\Users\Alvi17\Documents\ThesisPaper\Appendices/AppendixA.aux)
+(C:\Users\Alvi17\Documents\ThesisPaper\Appendices/AppendixB.aux)
+(C:\Users\Alvi17\Documents\ThesisPaper\Appendices/AppendixC.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 245.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 245.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: CB66B5BF3D87482CA4CCC3A83C599C3A;6230.
 
 
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
+LaTeX Warning: There were multiply-defined labels.
 
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 6EE27CFE86FDE828C1A752AFEA114721;11906
-(rerunfilecheck)             After:  16A0844DAD39165DAEA5CD367614BD9C;12370.
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package biblatex Warning: Please (re)run BibTeX on the file(s):
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
-
-Package logreq Info: Writing requests to 'main.run.xml'.
  )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 32765 strings out of 493921
- 651699 string characters out of 3144873
- 798090 words of memory out of 3000000
- 35447 multiletter control sequences out of 15000+200000
- 53032 words of font info for 92 fonts, out of 3000000 for 9000
+ 25156 strings out of 493921
+ 532497 string characters out of 3144873
+ 609645 words of memory out of 3000000
+ 27832 multiletter control sequences out of 15000+200000
+ 41027 words of font info for 79 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 56i,20n,82p,10377b,13883s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{appendix.145} has been referenced b
-ut does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.144} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.143} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.142} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.141} has been referenced but does not exist
-, replaced by a fixed one
-
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program 
-Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Fi
-les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program File
-s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files 
-(x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files (x8
-6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX
- 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
-s/type1/urw/palatino/uplb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
-urw/palatino/uplr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/pala
-tino/uplr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/palatino/upl
-ri8a.pfb>
-Output written on main.pdf (63 pages, 2894387 bytes).
+ 49i,20n,77p,10377b,4606s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.
+enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pf
+b><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C
+:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/P
+rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Prog
+ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program 
+Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Fi
+les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files
+ (x86)/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files (x86)/Mi
+KTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9
+/fonts/type1/urw/palatino/uplr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/t
+ype1/urw/palatino/uplr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw
+/palatino/uplri8a.pfb>
+Output written on main.pdf (80 pages, 3732817 bytes).
 PDF statistics:
- 948 PDF objects out of 1000 (max. 8388607)
- 223 named destinations out of 1000 (max. 500000)
- 719 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1149 PDF objects out of 1200 (max. 8388607)
+ 267 named destinations out of 1000 (max. 500000)
+ 832 words of extra memory for PDF output out of 10000 (max. 10000000)
 

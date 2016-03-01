@@ -1,97 +1,104 @@
-\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
-\defcounter {refsection}{0}\relax 
 \select@language {english}
-\contentsline {chapter}{Declaration of Authorship}{iii}{section*.1}
-\contentsline {chapter}{Abstract}{v}{section*.2}
-\contentsline {chapter}{Acknowledgements}{vii}{section*.3}
-\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.7}
-\contentsline {chapter}{\numberline {2}Literature Study}{3}{chapter.8}
-\contentsline {section}{\numberline {2.1}Knowledge Discovery Steps}{3}{section.9}
-\contentsline {subsection}{\numberline {2.1.1}Understanding the Application Domain}{3}{subsection.11}
-\contentsline {subsection}{\numberline {2.1.2}Selection of Dataset}{3}{subsection.12}
-\contentsline {subsection}{\numberline {2.1.3}Data Cleaning}{4}{subsection.13}
-\contentsline {subsection}{\numberline {2.1.4}Data transformation}{4}{subsection.14}
-\contentsline {subsection}{\numberline {2.1.5}Finding interesting features in the database}{4}{subsection.15}
-\contentsline {subsection}{\numberline {2.1.6}Selection of data mining task}{5}{subsection.16}
-\contentsline {subsection}{\numberline {2.1.7}Selection of Data mining method}{5}{subsection.17}
-\contentsline {subsection}{\numberline {2.1.8}Data mining}{5}{subsection.18}
-\contentsline {subsection}{\numberline {2.1.9}Pattern evaluation}{5}{subsection.19}
-\contentsline {subsection}{\numberline {2.1.10}Knowledge consolidation}{5}{subsection.20}
-\contentsline {section}{\numberline {2.2}Data Mining Concepts}{5}{section.21}
-\contentsline {paragraph}{}{5}{section*.22}
-\contentsline {subsection}{\numberline {2.2.1}Database Data}{6}{subsection.24}
-\contentsline {paragraph}{}{6}{section*.25}
-\contentsline {paragraph}{}{6}{section*.26}
-\contentsline {subsection}{\numberline {2.2.2}Data Warehouses}{7}{subsection.27}
-\contentsline {paragraph}{}{7}{section*.28}
-\contentsline {subsection}{\numberline {2.2.3}Transactional Data}{7}{subsection.29}
-\contentsline {paragraph}{}{7}{section*.30}
-\contentsline {subsection}{\numberline {2.2.4}Other Kinds of Data}{7}{subsection.31}
-\contentsline {paragraph}{}{7}{section*.32}
-\contentsline {section}{\numberline {2.3}Preprocessing}{8}{section.33}
-\contentsline {subsection}{\numberline {2.3.1}Data Cleaning}{8}{subsection.34}
-\contentsline {subsection}{\numberline {2.3.2}Data Integration}{10}{subsection.39}
-\contentsline {subsection}{\numberline {2.3.3}Data Transformation}{10}{subsection.40}
-\contentsline {subsection}{\numberline {2.3.4}Data Transformation by Normalization}{10}{subsection.41}
-\contentsline {section}{\numberline {2.4}Classification}{11}{section.42}
-\contentsline {subsection}{\numberline {2.4.1}Basic Concept}{11}{subsection.43}
-\contentsline {paragraph}{}{11}{section*.44}
-\contentsline {paragraph}{}{11}{section*.45}
-\contentsline {subsection}{\numberline {2.4.2}General Approach to Classification}{11}{subsection.46}
-\contentsline {paragraph}{}{11}{section*.47}
-\contentsline {paragraph}{}{11}{section*.48}
-\contentsline {subsection}{\numberline {2.4.3}Decision Tree Induction}{12}{subsection.52}
-\contentsline {paragraph}{}{12}{section*.53}
-\contentsline {subsection}{\numberline {2.4.4}Decision Tree Induction Algorithm}{13}{subsection.55}
-\contentsline {subsection}{\numberline {2.4.5}Attributes Selection Measures}{14}{subsection.58}
-\contentsline {paragraph}{}{14}{section*.59}
-\contentsline {subsubsection}{Information Gain}{15}{section*.61}
-\contentsline {paragraph}{}{15}{section*.62}
-\contentsline {paragraph}{}{15}{section*.63}
-\contentsline {subsubsection}{Gain Ratio}{16}{section*.64}
-\contentsline {paragraph}{}{16}{section*.65}
-\contentsline {paragraph}{}{16}{section*.66}
-\contentsline {subsubsection}{Gini Index}{16}{section*.67}
-\contentsline {subsubsection}{Other Attribute Selection Measures}{17}{section*.68}
-\contentsline {chapter}{\numberline {3}Analysis of BIIS Data}{19}{chapter.69}
-\contentsline {section}{\numberline {3.1}Scope}{19}{section.70}
-\contentsline {section}{\numberline {3.2}Database Structure}{19}{section.71}
-\contentsline {section}{\numberline {3.3}Problems in Existing Structure}{19}{section.72}
-\contentsline {chapter}{\numberline {4}Preprocessing}{21}{chapter.73}
-\contentsline {section}{\numberline {4.1}Technique And Design}{21}{section.74}
-\contentsline {section}{\numberline {4.2}Algorithms}{21}{section.75}
-\contentsline {subsection}{\numberline {4.2.1}Cleaning}{21}{subsection.76}
-\contentsline {subsection}{\numberline {4.2.2}Reduction}{21}{subsection.77}
-\contentsline {subsection}{\numberline {4.2.3}Integration}{21}{subsection.78}
-\contentsline {subsection}{\numberline {4.2.4}Normalization}{21}{subsection.79}
-\contentsline {section}{\numberline {4.3}Results}{21}{section.80}
-\contentsline {chapter}{\numberline {5}Classification}{23}{chapter.81}
-\contentsline {section}{\numberline {5.1}Decision Tree}{23}{section.82}
-\contentsline {section}{\numberline {5.2}Algorithm}{25}{section.85}
-\contentsline {section}{\numberline {5.3}Result of Classification}{27}{section.88}
-\contentsline {section}{\numberline {5.4}Statistical Analysis}{27}{section.91}
-\contentsline {section}{\numberline {5.5}Result of Statistical Analysis}{28}{section.92}
-\contentsline {subsection}{\numberline {5.5.1}Department wise Performance}{28}{subsection.93}
-\contentsline {subsubsection}{EEE Department}{28}{section*.94}
-\contentsline {subsubsection}{CSE Department}{28}{section*.97}
-\contentsline {subsubsection}{IPE Department}{28}{section*.100}
-\contentsline {subsubsection}{ME Department}{31}{section*.103}
-\contentsline {subsubsection}{CE Department}{31}{section*.106}
-\contentsline {subsubsection}{MME Department}{31}{section*.109}
-\contentsline {subsubsection}{CHE Department}{33}{section*.112}
-\contentsline {subsubsection}{NAME Department}{33}{section*.115}
-\contentsline {subsubsection}{URP Department}{33}{section*.118}
-\contentsline {subsubsection}{ARCH Department}{36}{section*.121}
-\contentsline {subsubsection}{WRE Department}{36}{section*.124}
-\contentsline {subsubsection}{Overall Department wise Performance}{36}{section*.127}
-\contentsline {subsection}{\numberline {5.5.2}Impact of Gender on Performance}{38}{subsection.129}
-\contentsline {subsection}{\numberline {5.5.3}Impact of Hall Status on Performance}{38}{subsection.132}
-\contentsline {subsection}{\numberline {5.5.4}Impact of Class Attendance Marks}{40}{subsection.135}
-\contentsline {subsection}{\numberline {5.5.5}Impact of Class Test Marks on Performance}{40}{subsection.138}
-\contentsline {subsection}{\numberline {5.5.6}Impact of CGPA on Overall Performance}{40}{subsection.141}
-\contentsline {subsection}{\numberline {5.5.7}Impact of Credit Completion}{42}{subsection.142}
-\contentsline {chapter}{\numberline {6}Conclusion}{43}{chapter.144}
-\contentsline {section}{\numberline {6.1}Summary of Thesis}{43}{section.145}
-\contentsline {section}{\numberline {6.2}General Findings}{43}{section.146}
-\contentsline {section}{\numberline {6.3}Future Works}{43}{section.147}
-\contentsline {chapter}{\numberline {A}Appendix Title Here}{45}{appendix.148}
+\contentsline {chapter}{Declaration of Authorship}{i}{section*.2}
+\contentsline {chapter}{Abstract}{ii}{section*.3}
+\contentsline {chapter}{Acknowledgements}{iii}{section*.4}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Problem Definition}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Scope of the Work}{2}{section.1.2}
+\contentsline {section}{\numberline {1.3}Objectives}{3}{section.1.3}
+\contentsline {section}{\numberline {1.4}Thesis organization}{3}{section.1.4}
+\contentsline {chapter}{\numberline {2}Literature Study}{5}{chapter.2}
+\contentsline {section}{\numberline {2.1}Knowledge Discovery Steps}{5}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Understanding the Application Domain}{6}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Selection of Dataset}{6}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Data Cleaning}{6}{subsection.2.1.3}
+\contentsline {subsection}{\numberline {2.1.4}Data transformation}{7}{subsection.2.1.4}
+\contentsline {subsection}{\numberline {2.1.5}Finding interesting features in the database}{7}{subsection.2.1.5}
+\contentsline {subsection}{\numberline {2.1.6}Selection of data mining task}{7}{subsection.2.1.6}
+\contentsline {subsection}{\numberline {2.1.7}Selection of Data mining method}{7}{subsection.2.1.7}
+\contentsline {subsection}{\numberline {2.1.8}Data mining}{8}{subsection.2.1.8}
+\contentsline {subsection}{\numberline {2.1.9}Pattern evaluation}{8}{subsection.2.1.9}
+\contentsline {subsection}{\numberline {2.1.10}Knowledge consolidation}{8}{subsection.2.1.10}
+\contentsline {section}{\numberline {2.2}Data Mining Concepts}{9}{section.2.2}
+\contentsline {paragraph}{}{9}{section*.9}
+\contentsline {subsection}{\numberline {2.2.1}Database Data}{9}{subsection.2.2.1}
+\contentsline {paragraph}{}{9}{section*.11}
+\contentsline {paragraph}{}{10}{section*.12}
+\contentsline {subsection}{\numberline {2.2.2}Data Warehouses}{10}{subsection.2.2.2}
+\contentsline {paragraph}{}{10}{section*.13}
+\contentsline {subsection}{\numberline {2.2.3}Transactional Data}{10}{subsection.2.2.3}
+\contentsline {paragraph}{}{10}{section*.14}
+\contentsline {subsection}{\numberline {2.2.4}Other Kinds of Data}{11}{subsection.2.2.4}
+\contentsline {paragraph}{}{11}{section*.15}
+\contentsline {section}{\numberline {2.3}Preprocessing}{13}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Data Cleaning}{13}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Data Integration}{15}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Data Transformation}{15}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.4}Data Transformation by Normalization}{16}{subsection.2.3.4}
+\contentsline {subsection}{\numberline {2.3.5}Data Discretization}{16}{subsection.2.3.5}
+\contentsline {subsubsection}{Discretization by Binning}{17}{section*.16}
+\contentsline {subsubsection}{Discretization by Histogram Analysis}{17}{section*.17}
+\contentsline {subsubsection}{Discretization by Cluster, Decision Tree, and Correlation Analyses}{18}{section*.18}
+\contentsline {section}{\numberline {2.4}Classification}{19}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Basic Concept}{19}{subsection.2.4.1}
+\contentsline {paragraph}{}{19}{section*.19}
+\contentsline {paragraph}{}{19}{section*.20}
+\contentsline {subsection}{\numberline {2.4.2}General Approach to Classification}{19}{subsection.2.4.2}
+\contentsline {paragraph}{}{19}{section*.21}
+\contentsline {paragraph}{}{20}{section*.22}
+\contentsline {subsection}{\numberline {2.4.3}Decision Tree Induction}{21}{subsection.2.4.3}
+\contentsline {paragraph}{}{21}{section*.24}
+\contentsline {subsection}{\numberline {2.4.4}Decision Tree Induction Algorithm}{21}{subsection.2.4.4}
+\contentsline {subsection}{\numberline {2.4.5}Attributes Selection Measures}{22}{subsection.2.4.5}
+\contentsline {paragraph}{}{22}{section*.27}
+\contentsline {subsubsection}{Information Gain}{24}{section*.28}
+\contentsline {paragraph}{}{24}{section*.29}
+\contentsline {paragraph}{}{24}{section*.30}
+\contentsline {subsubsection}{Gain Ratio}{25}{section*.31}
+\contentsline {paragraph}{}{25}{section*.32}
+\contentsline {paragraph}{}{26}{section*.33}
+\contentsline {subsubsection}{Gini Index}{26}{section*.34}
+\contentsline {subsubsection}{Other Attribute Selection Measures}{27}{section*.35}
+\contentsline {chapter}{\numberline {3}Analysis of BIIS Data}{28}{chapter.3}
+\contentsline {section}{\numberline {3.1}Scope}{28}{section.3.1}
+\contentsline {section}{\numberline {3.2}Database Structure}{29}{section.3.2}
+\contentsline {section}{\numberline {3.3}Problems in Existing Structure}{30}{section.3.3}
+\contentsline {chapter}{\numberline {4}Preprocessing}{33}{chapter.4}
+\contentsline {section}{\numberline {4.1}Technique And Design}{33}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Data Cleaning}{33}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Data Normalization}{35}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Data Transformation}{36}{subsection.4.1.3}
+\contentsline {section}{\numberline {4.2}Results}{36}{section.4.2}
+\contentsline {chapter}{\numberline {5}Classification}{39}{chapter.5}
+\contentsline {section}{\numberline {5.1}Decision Tree}{39}{section.5.1}
+\contentsline {section}{\numberline {5.2}Algorithm}{40}{section.5.2}
+\contentsline {section}{\numberline {5.3}Result of Classification}{41}{section.5.3}
+\contentsline {section}{\numberline {5.4}Statistical Analysis}{41}{section.5.4}
+\contentsline {section}{\numberline {5.5}Result of Statistical Analysis}{44}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Department wise Performance}{44}{subsection.5.5.1}
+\contentsline {subsubsection}{EEE Department}{44}{section*.54}
+\contentsline {subsubsection}{CSE Department}{44}{section*.57}
+\contentsline {subsubsection}{IPE Department}{46}{section*.60}
+\contentsline {subsubsection}{ME Department}{46}{section*.63}
+\contentsline {subsubsection}{CE Department}{48}{section*.66}
+\contentsline {subsubsection}{MME Department}{48}{section*.69}
+\contentsline {subsubsection}{CHE Department}{50}{section*.72}
+\contentsline {subsubsection}{NAME Department}{50}{section*.75}
+\contentsline {subsubsection}{URP Department}{52}{section*.78}
+\contentsline {subsubsection}{ARCH Department}{52}{section*.81}
+\contentsline {subsubsection}{WRE Department}{54}{section*.84}
+\contentsline {subsubsection}{Overall Department wise Performance}{54}{section*.87}
+\contentsline {subsection}{\numberline {5.5.2}Impact of Gender on Performance}{55}{subsection.5.5.2}
+\contentsline {subsection}{\numberline {5.5.3}Impact of Hall Status on Performance}{55}{subsection.5.5.3}
+\contentsline {subsection}{\numberline {5.5.4}Impact of Class Attendance Marks}{56}{subsection.5.5.4}
+\contentsline {subsection}{\numberline {5.5.5}Impact of Class Test Marks on Performance}{58}{subsection.5.5.5}
+\contentsline {subsection}{\numberline {5.5.6}Impact of CGPA on Overall Performance}{58}{subsection.5.5.6}
+\contentsline {subsection}{\numberline {5.5.7}Impact of Credit Completion}{59}{subsection.5.5.7}
+\contentsline {chapter}{\numberline {6}Conclusion}{60}{chapter.6}
+\contentsline {section}{\numberline {6.1}Summary of Thesis}{60}{section.6.1}
+\contentsline {section}{\numberline {6.2}General Findings}{60}{section.6.2}
+\contentsline {section}{\numberline {6.3}Future Works}{61}{section.6.3}
+\contentsline {chapter}{\numberline {A}Data Samples}{62}{appendix.A}
+\contentsline {chapter}{\numberline {B}More Statistical Analysis Results}{64}{appendix.B}
+\contentsline {section}{\numberline {B.1}Department wise Different Grade Comparison}{64}{section.B.1}
+\contentsline {chapter}{\numberline {C}Details of Department Name}{66}{appendix.C}
